@@ -239,6 +239,7 @@ tr.spot td{background:var(--paper-box)}
   border-bottom:2px solid transparent; margin-bottom:-1px;
 }
 .tabs label:hover{color:var(--ink-2)}
+.tabs .sm{display:none}
 .panel{display:none}
 #view-findings:checked ~ .tabs label[for="view-findings"],
 #view-runs:checked ~ .tabs label[for="view-runs"],
@@ -445,16 +446,18 @@ tr.spot td{background:var(--paper-box)}
   figcaption{margin-left:0; margin-right:0; font-size:13px; line-height:1.55}
   /* said once, on the first chart, not under all seventeen */
   .findings-body figure:first-of-type figcaption::after{
-    content:" \2194 Charts pan sideways.";
+    content:" \2194\00a0Charts pan sideways.";
     color:var(--muted);
   }
 
   /* utility type up one step, no more */
   .mh-top{font-size:11px; letter-spacing:.14em}
   .stats{font-size:11.5px}
-  .stats > div{padding:15px 0 15px 14px}
-  .tabs{gap:22px}
-  .tabs label{font-size:11.5px; padding:13px 0 11px}
+  .stats > div{padding:12px 0 12px 13px}
+  .tabs{gap:22px; flex-wrap:nowrap}
+  .tabs label{font-size:11.5px; padding:13px 0 11px; white-space:nowrap}
+  .tabs .lg{display:none}
+  .tabs .sm{display:inline}
   .eyebrow{font-size:11.5px; letter-spacing:.18em}
   .story{padding-top:28px}
   .story h2{max-width:none}
@@ -488,7 +491,7 @@ tr.spot td{background:var(--paper-box)}
 @media (max-width:430px){
   .stats{grid-template-columns:1fr 1fr; font-size:11px}
   .stats > div:nth-child(3){padding-left:0; border-left:none}
-  .tabs{gap:16px}
+  .tabs{gap:18px}
   .tabs label{font-size:11px}
 }
 :focus-visible{outline:2px solid var(--spot); outline-offset:2px}
@@ -534,9 +537,9 @@ tr.spot td{background:var(--paper-box)}
 <input class="tabin" type="radio" name="view" id="view-runs">
 <input class="tabin" type="radio" name="view" id="view-wickets">
 <nav class="tabs" aria-label="Choose a view">
-  <label for="view-findings">The findings</label>
-  <label for="view-runs">Working &middot; runs model</label>
-  <label for="view-wickets">Working &middot; wicket model</label>
+  <label for="view-findings"><span class="lg">The findings</span><span class="sm">Findings</span></label>
+  <label for="view-runs"><span class="lg">Working &middot; runs model</span><span class="sm">Runs model</span></label>
+  <label for="view-wickets"><span class="lg">Working &middot; wicket model</span><span class="sm">Wicket model</span></label>
 </nav>
 
 <div class="panel panel-findings">
