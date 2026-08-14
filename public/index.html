@@ -79,7 +79,7 @@ body::before{
 }
 
 /* standfirst */
-.opener{padding:36px 0 10px; border-bottom:1px solid var(--rule); margin-bottom:8px}
+.opener{padding:42px 0 30px; border-bottom:1px solid var(--rule); margin-bottom:0}
 .opener h1{
   font-family:var(--ff-display); font-weight:700; font-size:clamp(34px,7vw,78px);
   line-height:.98; letter-spacing:-.024em; margin:0 0 16px; text-wrap:balance; max-width:15em;
@@ -90,7 +90,7 @@ body::before{
 }
 
 /* story blocks */
-.story{padding:34px 0 8px; border-top:1px solid var(--rule)}
+.story{padding:58px 0 30px; border-top:1px solid var(--rule)}
 .story:first-of-type{border-top:none}
 .eyebrow{
   font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.22em;
@@ -104,7 +104,7 @@ body::before{
 .story .after{color:var(--ink-2); font-size:15.5px; max-width:46em}
 p{margin:0 0 .8em}
 
-figure{margin:20px 0 6px}
+figure{margin:26px 0 8px}
 figure svg{display:block; width:100%; height:auto}
 figcaption{
   font-family:var(--ff-util); font-size:11.5px; line-height:1.5; letter-spacing:.02em;
@@ -112,9 +112,9 @@ figcaption{
   max-width:52em;
 }
 
-.two{display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:start}
+.two{display:grid; grid-template-columns:1fr 1fr; gap:36px; align-items:start}
 .two.dossiers{grid-template-rows:auto auto auto 1fr}
-.three{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; align-items:start;
+.three{display:grid; grid-template-columns:repeat(3,1fr); gap:34px; align-items:start;
   grid-template-rows:auto auto auto 1fr}
 @media (max-width:840px){.two,.three{grid-template-columns:1fr}}
 
@@ -183,10 +183,10 @@ tr.spot td{background:var(--paper-box)}
 }
 
 .note{
-  background:var(--paper-box); border-top:2px solid var(--ink); padding:14px 16px 12px;
-  margin:24px 0 0; font-size:15.5px;
+  background:var(--paper-box); border-top:2px solid var(--ink); padding:16px 18px 14px;
+  margin:34px 0 0; font-size:15.5px;
 }
-.story .note{margin:18px 0 6px}
+.story .note{margin:26px 0 4px}
 .note h4{
   font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.2em; font-size:10.5px;
   margin:0 0 9px; color:var(--ink);
@@ -195,7 +195,7 @@ tr.spot td{background:var(--paper-box)}
 .note p:last-child{margin-bottom:0}
 
 .colophon{
-  margin:44px 0 0; border-top:3px double var(--ink); padding:16px 0 64px;
+  margin:58px 0 0; border-top:3px double var(--ink); padding:16px 0 64px;
   font-family:var(--ff-util); font-size:11.5px; line-height:1.65; color:var(--ink-2);
 }
 .colophon h4{font-size:10.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ink); margin:0 0 8px}
@@ -459,7 +459,8 @@ tr.spot td{background:var(--paper-box)}
   .tabs .lg{display:none}
   .tabs .sm{display:inline}
   .eyebrow{font-size:11.5px; letter-spacing:.18em}
-  .story{padding-top:28px}
+  .story{padding:42px 0 22px}
+  .opener{padding:30px 0 24px}
   .story h2{max-width:none}
   .story .after,.dossier p,.note{font-size:16px}
   .dossier .role{font-size:11px}
