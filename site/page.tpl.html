@@ -334,6 +334,55 @@ tr.spot td{background:var(--paper-box)}
   .story{scroll-margin-top:22px}
   .opener{scroll-margin-top:22px}
 }
+/* ---------- phones ---------- */
+@media (max-width:760px){
+  body{font-size:17.5px; line-height:1.55}
+
+  /* charts are drawn in a 700-unit viewBox; squeezing that into a 375px screen renders
+     10-unit labels at about 5px. Hold them at their design size and scroll instead. */
+  figure{overflow-x:auto; -webkit-overflow-scrolling:touch}
+  figure svg{min-width:660px}
+  figure::after{
+    content:"scroll sideways to see the whole chart";
+    display:block; margin-top:6px;
+    font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.12em;
+    font-size:10.5px; color:var(--muted);
+  }
+  figcaption{font-size:13.5px; line-height:1.55}
+
+  /* every small utility label goes up a step */
+  .mh-top{font-size:11.5px; letter-spacing:.16em}
+  .stats{font-size:12.5px}
+  .stats > div{padding:14px 0 14px 14px}
+  .tabs{gap:20px}
+  .tabs label{font-size:12px; padding:14px 0 12px}
+  .secnav a{font-size:12px; padding:12px 13px 11px}
+  .eyebrow{font-size:12px; letter-spacing:.18em}
+  .story .after{font-size:16.5px}
+  .dossier .role{font-size:11.5px}
+  .strip .k{font-size:11px; letter-spacing:.07em}
+  .strip .v{font-size:21px}
+  .strip .v.dual{font-size:17px}
+  .dossier p{font-size:16.5px}
+  .note{font-size:16.5px}
+  .colophon{font-size:13px; line-height:1.7}
+  caption{font-size:12px}
+  th{font-size:12px}
+  table{font-size:15.5px}
+  td.name small{font-size:11px}
+  .nb{font-size:16.5px}
+  .nb-md p,.nb-md li{font-size:16.5px}
+  .nb-code{font-size:13.5px}
+  .nb-out{font-size:13px}
+  .nb-table table{font-size:13.5px}
+
+  /* keep the floating links clear of the last line of text */
+  .colophon{padding-bottom:96px}
+}
+@media (max-width:420px){
+  .stats{grid-template-columns:1fr 1fr}
+  .stats > div:nth-child(3){padding-left:0; border-left:none}
+}
 :focus-visible{outline:2px solid var(--spot); outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>

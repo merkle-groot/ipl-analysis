@@ -164,5 +164,51 @@ for k, v in C.items():
     page = page.replace("{{" + k + "}}", v)
 
 assert "{{" not in page, page[page.index("{{"):page.index("{{") + 60]
-open(str(ROOT / "public" / "index.html"), "w").write(page)
-print("wrote", len(page), "bytes")
+
+TITLE = "The IPL in 284,465 deliveries"
+DESC = ("Player outliers and counter-intuitive findings from nineteen seasons of IPL "
+        "cricket, read one delivery at a time.")
+SITE = "https://ipl.primemodulus.com/"
+
+# The artifact host supplies its own <head>, so that build stays body-only.
+(DATA / "artifact.html").write_text(page)
+
+# The standalone deploy needs a real document. Without a viewport meta, phones lay the
+# page out at 980px and scale it down, which makes every label unreadable.
+HEAD = f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{TITLE}</title>
+<meta name="description" content="{DESC}">
+<meta name="author" content="@0x1379">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="{SITE}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{TITLE}">
+<meta property="og:title" content="{TITLE}">
+<meta property="og:description" content="{DESC}">
+<meta property="og:url" content="{SITE}">
+<meta property="og:image" content="{SITE}card.png">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="900">
+<meta property="og:image:alt" content="Chart: bowlers who concede far fewer sixes than par, led by Jasprit Bumrah">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@0x1379">
+<meta name="twitter:creator" content="@0x1379">
+<meta name="twitter:title" content="{TITLE}">
+<meta name="twitter:description" content="{DESC}">
+<meta name="twitter:image" content="{SITE}card.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>&#x1F4F0;</text></svg>">
+</head>
+<body>
+"""
+doc = HEAD + page.split("</style>", 1)[0].join([""]) if False else HEAD + page
+doc += "\n</body>\n</html>\n"
+
+# the <title> already inside the body markup would duplicate the head one
+doc = doc.replace(f"<body>\n<title>{TITLE}</title>", "<body>", 1)
+
+open(str(ROOT / "public" / "index.html"), "w").write(doc)
+print("wrote", len(doc), "bytes (standalone) +", len(page), "bytes (artifact)")
