@@ -1,0 +1,697 @@
+<title>The IPL in 284,465 deliveries</title>
+<style>
+:root{
+  --paper:#ffffff; --paper-box:#f4f3ef; --paper-tint:#f8f7f3;
+  --ink:#15171b; --ink-2:#54565c; --muted:#9a9a92;
+  --rule:#dcdad3; --rule-soft:#e8e6e0;
+  --spot:#2f6f4a;
+  --toc-w:240px; --toc-gap:72px;
+  --ff-display:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+  --ff-body:"Times New Roman",Times,Georgia,serif;
+  --ff-util:"Arial Narrow","Helvetica Neue Condensed","Liberation Sans Narrow",Arial,sans-serif;
+  --measure:66rem;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--ff-body); font-size:17px; line-height:1.5;
+  text-rendering:optimizeLegibility;
+}
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:8;
+  opacity:.32; mix-blend-mode:multiply;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(21,23,27,.012) 0 1px,transparent 1px 3px),
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAIUElEQVR42rVc15abMBDliY4QSAj0/z8aG2OsMk32hnPi7GKQpty5UyCpKv5Yz09XfXO05+eOfhPv8To8sV5z/d09/tTV/YtBLg/PD9mmFSsWLEworPuIER07usNTpqU6UpmH6LcpuWlLNh6BbV7X6MBK0IrPO1WxH6fszHIaa/n8kh4fhbpTtJe+B7vVfquSb68AId7H2w9zkWK6xHUVaFt7xcb2U1z04HV99eVRHq79eZeOwBRCzgShl8I1PebgCk/a3FzrPVy8IAvhKo3XJxSkXXZmS4DyVqrJADtn++WyCWLIBmJYUrVcyJy/1swMw7m6v+ypUbaxiPADddoA3y33ooZRI4+pThD6sAc/9x0AH7m36jXAzuWHCfjEA2zWEaQ4Rz5cLk/NAV3jx1D9+bFG4befyqkEKgOKZ50J1dwGgDzCUiinoSYo9g29ETn/O21ucfJfA5YembwwCSKhP9WaCsFpkfM1T/ULy/V95JeuKCTxjGMFKbTKyhi49hIlbceovIoy+1LsA+aYQQ0NYoEewW0nAkAupr6VHYh7RBVDB+S8qbBWhEotFdh+R0OyESDByiwEg8IBP/UIY3UAP01cNRkxIBU/SNtzRKqsICab85spA4MJbHkEkBuBmFiEoNYPeXpJ7m+QeHeAZY+H9nNkc1cALPqo73sbwXW38AYtymSqxgsuyM97pJZBALTd0OoSCM0gz6H9cJnN4gTfFBJjbHFLmgo8VHTrlJz3BM+/kokFAstFIX4ghYIXSOdL7DkmudcmjDEEqq5oRtx+8qnNjDSwEBaq1rHJZfoRkBNI4ZrpGEVW0wX1D0zQcHGhyIwwS627sk2irLh63zk+fOWy4DWiEu8dN7WYPqIGwbIF8tNqDVPEyazXZnc2DHX3EifHNjvApRsilx6izLFE9VG8y0Ba3ObE0QoHfrNoOodVjQtrrgUo/XYUsPXn4pXk3zqxYZ8UbN293KehdwCjqPPaHfVay+SpTUIhe7CMS1SZmQDeCpLPKIiWnuF8X/2XY0b4a/iDJj4UvamYIUUtKD3wjNFm6yhynZUg5TTF7ZwFfRRuc6ZOH5zffhiJLRFHtWwN3NN9RC+YFClyCRegcsTnOJfwIyDiuwramJhZ/grvJhm4mAyQKwDLOTCWAcR0qGENFTeOycVtZk0LWsMyWIajYaFmb8AVDUoNSHs9CJDq/gOnNScsbWkCdafzFcpJB0qOB1JQj+eK3PStB4q9sUzjCaVWlxTWOgGDy4Qpfxrpir9RUBvRgpjcb9F9Mv1RKI/FCJ6CMyOZg7iqeKtEszS85t+LtpPUprQsTUIY5ENZDqdpzhxQRlmDv4+kgpEobJH2pz9VMJ+dpsA1DcpDtoS2snmdZe9cWCBtDLGDbYkWTxjm6q+OQRwRWv584C2kTuA2fRGCsT37E4yGvP+gi80Bmc5NAf4Um0pi7moKwvZTkAzg9W2iFjO6+TzXncHNfKReE1w3XKbQXw7SPruu3zUvDrh1I7sERU4lVgTVAxEz/GDs9dBQ5Ss0ZMbbIoJ1jEW6JH1xfGUCYagUpyL/jlDCwCvIJRK6zix+iPoMjbLXdIm0ER6xHNd150U7mq7X4LOOvONAzjpAMI5oC7oh6fQZeZ6l2sLGnUr+09dh7JGcpCRljxPViTVCdf4Spv6qU/4uDVq6thsCQV3COz1JhfxkAfPFQdYFxV/ukd1bIP1U7LnvalZZKa1z1PSRyAPCSOPDM3m6m4FMYRgl28KZE3LU6Ab1n2BW2gP4LERXfvxTX5b4viXXpKs3gUJL5Ovp+9BeSavTzfj++DyCcs6zXqTiYs0mEUtVlRbPuZ8sYulD+OxMZZbVRDPTB+p4pDozEjyyrXQCjyMITwVSwXwB5QDXXtl+y8Ci6wzTs6gJbADqVYK6CO4pvgr/OijZINQemQBzkqDG84y9RG+Y1BO+qrOiuWchxw09jdLfB1INkRyP3wKSrkeXCI0GrAAHUah+OoMZDfKdzUz6Rv12WX3haEwTlo5VmoGffabkGnxjBNjvwQJHcV5zXwAKTlILidOasH0fGW9Gs5Upm8qMRPWoEtW7r2BLgQv+hxIOw6Emaa3/Kb6e778phjg7kao1dL1lAKRJb1lCEAv61bPdmcugcpSW5HVioR3dcouu0knQroEZ1uxtbdhk/l55ZhiLCNYadOkubIc4ChgyL/ibJOtsp1leDXZo56aYx9VPt0sbzD0ywRzJcaAwKyaJGkD/JEpFEqbryZ1Hce9RSHAVgOEj8OhGdN8erXTkmSb8xlK1tYqstBPVZZ9RYw1ArL52aIj6VkX7jJeoPRWFc8LGm8AqWyCgR7N6LZyh2ZIRCpxR5e8ezFHQ6oJWf7yvqdHCzSD1znh7TkdeGOX4K3nd1IuYqEWbmFeTD7eOGgZ8kzl6AAu8DRl15HBaBSMvTdCE+W2QM4rZpwa2tg+rfv75YQO2OuXtzAKyI0OrBzn6yBXqAxNsiKcakqjpd09bfERTo+xgC700FU/mdnzOkIBX/VgPg3mgRdw5RTZOq6rhjBhJZbmB5tBYNJpiBWK4uSp/Q/ooWkdd/n2+e30ImSxRYGKw26EjLUkp4iN0W1AM2as6LeymnczIqmBGJyvo5oJKzOL9oReHZPgm+ZLxugyCHhDJESxI+mC9QmFhA8mCVmyr8J26nGFefZkhW51dlLaIZ9MGaeY9smCHPk14I9sxCTC0f/j87fU6ySoO2o7SsuRhqU2WCp/RKyZqRsGUStg2cVWpDmy5MwG3BUJ05P8okc7+PSj2dpvD5LfrQv5YAOD0GUpbwIpUz+yzdvMgC5yq+mFE/HmrYWRaloXtL0Jxil+g+gdMGE6lrrY82AAAAABJRU5ErkJggg==");
+  background-repeat:repeat, repeat;
+  background-size:auto, 96px 96px;
+}
+.sheet{max-width:var(--measure); margin:0 auto; padding:0 clamp(16px,4vw,44px); position:relative; z-index:1}
+
+/* masthead */
+.masthead{padding-top:clamp(18px,3vw,32px)}
+.mh-top{
+  display:flex; justify-content:space-between; gap:16px;
+  font-family:var(--ff-util); font-size:10.5px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--ink-2); padding-bottom:11px;
+  border-bottom:3px solid var(--ink);
+}
+.stats{
+  display:grid; grid-template-columns:repeat(4,1fr);
+  font-family:var(--ff-util); font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-2);
+}
+.stats > div{padding:22px 0 22px 20px; border-left:1px solid var(--rule)}
+.stats > div:first-child{padding-left:0; border-left:none}
+.stats b{color:var(--ink); font-weight:400}
+@media (max-width:720px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stats > div{padding:14px 0 14px 16px}
+  .stats > div:nth-child(3){padding-left:0; border-left:none}
+}
+
+/* standfirst */
+.opener{padding:36px 0 10px; border-bottom:1px solid var(--rule); margin-bottom:8px}
+.opener h1{
+  font-family:var(--ff-display); font-weight:700; font-size:clamp(34px,7vw,78px);
+  line-height:.98; letter-spacing:-.024em; margin:0 0 16px; text-wrap:balance; max-width:15em;
+}
+.opener p{
+  font-size:clamp(17px,2vw,20px); line-height:1.5; color:var(--ink-2);
+  max-width:46em; margin:0 0 14px;
+}
+
+/* story blocks */
+.story{padding:34px 0 8px; border-top:1px solid var(--rule)}
+.story:first-of-type{border-top:none}
+.eyebrow{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.22em;
+  font-size:10.5px; color:var(--spot); margin:0 0 7px;
+}
+.story h2{
+  font-family:var(--ff-display); font-weight:700; font-size:clamp(23px,3.3vw,34px);
+  line-height:1.06; letter-spacing:-.016em; margin:0 0 12px; text-wrap:balance; max-width:22em;
+}
+.story p{margin:0 0 .8em; max-width:44em}
+.story .after{color:var(--ink-2); font-size:15.5px; max-width:46em}
+p{margin:0 0 .8em}
+
+figure{margin:20px 0 6px}
+figure svg{display:block; width:100%; height:auto}
+figcaption{
+  font-family:var(--ff-util); font-size:11.5px; line-height:1.5; letter-spacing:.02em;
+  color:var(--ink-2); border-top:1px solid var(--rule); margin-top:8px; padding-top:7px;
+  max-width:52em;
+}
+
+.two{display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:start}
+.three{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; align-items:start}
+@media (max-width:840px){.two,.three{grid-template-columns:1fr}}
+
+.wrap{overflow-x:auto; -webkit-overflow-scrolling:touch}
+table{border-collapse:collapse; width:100%; font-variant-numeric:tabular-nums; font-size:14.5px}
+caption{
+  caption-side:top; text-align:left; font-family:var(--ff-util); text-transform:uppercase;
+  letter-spacing:.18em; font-size:10.5px; color:var(--ink); padding-bottom:6px;
+  border-bottom:2px solid var(--ink);
+}
+th{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.1em; font-size:10.5px;
+  font-weight:400; color:var(--ink-2); text-align:right; padding:7px 8px 5px;
+  border-bottom:1px solid var(--ink); white-space:nowrap;
+}
+th:first-child,td:first-child{text-align:left}
+td{padding:5px 8px; border-bottom:1px solid var(--rule-soft); text-align:right; white-space:nowrap}
+tbody tr:last-child td{border-bottom:1px solid var(--ink)}
+td.name small{
+  font-family:var(--ff-util); font-size:10px; letter-spacing:.09em; color:var(--ink-2);
+  display:block; text-transform:uppercase;
+}
+.pos{color:var(--spot)}
+.neg{color:var(--ink-2)}
+tr.spot td{background:var(--paper-box)}
+
+/* dossiers */
+.dossier{border-top:2px solid var(--ink); padding-top:12px}
+.dossier h3{
+  font-family:var(--ff-display); font-weight:700; font-size:clamp(20px,2.6vw,25px);
+  line-height:1.04; margin:0 0 3px; letter-spacing:-.014em;
+}
+.dossier .role{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.16em; font-size:10px;
+  color:var(--spot); margin:0 0 11px;
+}
+.dossier p{font-size:15.5px; margin:0 0 .7em}
+.strip{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); margin:0 0 12px}
+.strip div{background:var(--paper-tint); padding:8px 9px 7px}
+.strip .v{font-family:var(--ff-display); font-weight:700; font-size:19px; line-height:1.05}
+.strip .v.sp{color:var(--spot)}
+.strip .k{font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.1em; font-size:9.5px; color:var(--ink-2); margin-top:3px; line-height:1.3}
+
+.note{
+  background:var(--paper-box); border-top:2px solid var(--ink); padding:14px 16px 12px;
+  margin:24px 0 0; font-size:15.5px;
+}
+.story .note{margin:18px 0 6px}
+.note h4{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.2em; font-size:10.5px;
+  margin:0 0 9px; color:var(--ink);
+}
+.note p{margin:0 0 .7em; max-width:52em}
+.note p:last-child{margin-bottom:0}
+
+.colophon{
+  margin:44px 0 0; border-top:3px double var(--ink); padding:16px 0 64px;
+  font-family:var(--ff-util); font-size:11.5px; line-height:1.65; color:var(--ink-2);
+}
+.colophon h4{font-size:10.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ink); margin:0 0 8px}
+.colophon p{max-width:56em}
+/* ---------- floating links ---------- */
+.social{
+  position:fixed; right:16px; top:50%; transform:translateY(-50%); z-index:20;
+  display:flex; flex-direction:column; gap:8px;
+}
+.social a{
+  display:flex; align-items:center; gap:8px; text-decoration:none;
+  padding:9px 11px; color:var(--ink-2); background:var(--paper);
+  border:1px solid var(--rule);
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.14em; font-size:10px;
+  max-width:38px; overflow:hidden; white-space:nowrap;
+  transition:max-width .22s ease, color .22s ease, border-color .22s ease;
+}
+.social a svg{width:16px; height:16px; flex:0 0 16px}
+.social a span{opacity:0; transition:opacity .18s ease}
+.social a:hover,.social a:focus-visible{
+  max-width:180px; color:var(--ink); border-color:var(--ink);
+}
+.social a:hover span,.social a:focus-visible span{opacity:1}
+@media (prefers-reduced-motion:reduce){
+  .social a{transition:none} .social a span{transition:none}
+}
+@media (max-width:900px){
+  .social{top:auto; bottom:14px; right:14px; transform:none; flex-direction:row}
+}
+
+/* ---------- view tabs ---------- */
+.tabin{position:absolute; width:1px; height:1px; opacity:0; margin:0}
+.tabs{
+  display:flex; flex-wrap:wrap; gap:28px; margin-top:0;
+  border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+}
+.tabs label{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.15em; font-size:10.5px;
+  padding:13px 0 12px; cursor:pointer; color:var(--muted);
+  background:transparent; user-select:none;
+  border-bottom:2px solid transparent; margin-bottom:-1px;
+}
+.tabs label:hover{color:var(--ink-2)}
+.panel{display:none}
+#view-findings:checked ~ .tabs label[for="view-findings"],
+#view-runs:checked ~ .tabs label[for="view-runs"],
+#view-wickets:checked ~ .tabs label[for="view-wickets"]{
+  color:var(--ink); border-bottom-color:var(--spot);
+}
+#view-findings:checked ~ .panel-findings,
+#view-runs:checked ~ .panel-runs,
+#view-wickets:checked ~ .panel-wickets{display:block}
+#view-findings:focus-visible ~ .tabs label[for="view-findings"],
+#view-runs:focus-visible ~ .tabs label[for="view-runs"],
+#view-wickets:focus-visible ~ .tabs label[for="view-wickets"]{outline:2px solid var(--spot); outline-offset:2px}
+
+/* ---------- section rail ---------- */
+.secnav{
+  position:sticky; top:0; z-index:6;
+  display:flex; gap:0; overflow-x:auto; overflow-y:hidden; white-space:nowrap;
+  background:var(--paper); border-bottom:1px solid var(--rule);
+  margin:0 calc(-1 * clamp(16px,4vw,44px)); padding:0 clamp(16px,4vw,44px);
+  scrollbar-width:thin; -webkit-overflow-scrolling:touch;
+}
+.secnav::-webkit-scrollbar{height:4px}
+.secnav::-webkit-scrollbar-thumb{background:var(--rule)}
+.secnav a{
+  flex:0 0 auto; text-decoration:none; color:var(--ink-2);
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.13em; font-size:10.5px;
+  padding:11px 14px 10px; border-bottom:2px solid transparent;
+}
+.secnav a:hover{color:var(--ink); border-bottom-color:var(--spot)}
+.secnav .rail-head{display:none}
+.story{scroll-margin-top:52px}
+.opener{scroll-margin-top:52px}
+
+/* ---------- python syntax colours (generated) ---------- */
+{{pygments_css}}
+
+/* ---------- rendered notebook ---------- */
+.nb{padding:26px 0 60px; font-size:16px}
+.nb-head{border-bottom:1px solid var(--ink); padding-bottom:14px; margin-bottom:8px}
+.nb-head .kick{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.22em;
+  font-size:10.5px; color:var(--spot); margin:0 0 7px;
+}
+.nb-head p{color:var(--ink-2); max-width:46em; margin:0; font-size:15.5px}
+.nb .nb-md:first-of-type h1{margin-top:14px}
+.nb-md{max-width:46em; margin:22px 0 14px}
+.nb-md h1{font-family:var(--ff-display); font-size:clamp(22px,3vw,30px); line-height:1.08; margin:26px 0 10px; letter-spacing:-.015em}
+.nb-md h2{font-family:var(--ff-display); font-size:clamp(19px,2.4vw,25px); line-height:1.12; margin:24px 0 9px; letter-spacing:-.012em}
+.nb-md h3,.nb-md h4{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.16em;
+  font-size:11.5px; color:var(--spot); margin:22px 0 8px; font-weight:400;
+}
+.nb-md p{margin:0 0 .7em}
+.nb-md ul,.nb-md ol{margin:0 0 .8em; padding-left:1.3em}
+.nb-md li{margin-bottom:.32em}
+.nb-md code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; font-size:.87em; background:var(--paper-box); padding:1px 4px}
+.nb-md table{margin:12px 0; font-size:14px}
+.nb-md table th,.nb-md table td{text-align:left}
+.nb-md strong{font-weight:700}
+.nb-md hr{border:none; border-top:1px solid var(--rule); margin:26px 0}
+.nb-cell{display:flex; gap:10px; align-items:flex-start; margin:16px 0 0}
+.nb-gutter{
+  font-family:var(--ff-util); font-size:10.5px; color:var(--spot); padding-top:11px;
+  min-width:30px; text-align:right; letter-spacing:.05em;
+}
+.nb-code{
+  flex:1; min-width:0; margin:0; padding:11px 14px; overflow-x:auto;
+  background:var(--paper-tint); border-left:2px solid var(--ink);
+  font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  font-size:12.9px; line-height:1.55; tab-size:4;
+}
+.nb-code code{font:inherit}
+.nb-outs{margin:0 0 8px 40px}
+.nb-out{
+  margin:8px 0 0; padding:9px 12px; overflow-x:auto;
+  font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  font-size:12.3px; line-height:1.5; color:var(--ink-2);
+  border-left:2px solid var(--rule); background:var(--paper);
+}
+.nb-err{color:var(--spot); border-left-color:var(--spot)}
+.nb-fig{margin:14px 0; max-width:760px}
+.nb-fig img{display:block; width:100%; height:auto}
+.nb-table{margin:10px 0; overflow-x:auto}
+.nb-table table{border-collapse:collapse; font-size:12.6px; font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace; width:auto}
+.nb-table table th,.nb-table table td{
+  border:1px solid var(--rule-soft); padding:3px 8px; text-align:right; white-space:nowrap;
+}
+.nb-table table thead th{border-bottom:1px solid var(--ink); font-family:var(--ff-util); font-size:11px; letter-spacing:.06em; color:var(--ink)}
+.nb-table small{font-family:var(--ff-util); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-2); display:block; margin-bottom:4px}
+@media (max-width:640px){
+  .nb-outs{margin-left:0}
+  .nb-gutter{display:none}
+}
+/* ---------- wide screens: the section rail becomes a vertical column ---------- */
+@media (min-width:1140px){
+  :root{--measure:82rem}
+  #view-findings:checked ~ .panel-findings{
+    display:flex; align-items:flex-start; gap:var(--toc-gap);
+  }
+  .findings-body{flex:1 1 auto; min-width:0}
+  .secnav{
+    flex:0 0 var(--toc-w);
+    position:sticky; top:22px; z-index:6;
+    display:block; white-space:normal; overflow-x:visible;
+    max-height:calc(100vh - 44px); overflow-y:auto;
+    margin-top:max(0px, calc(50vh - 17rem)); margin-bottom:0;
+    margin-left:0; margin-right:0; padding:0 0 0 1px;
+    background:transparent; border-bottom:none; border-left:1px solid var(--rule);
+  }
+  .secnav a{
+    display:block; padding:6px 0 6px 13px; margin-left:-1px;
+    border-bottom:none; border-left:2px solid transparent; line-height:1.3;
+  }
+  .secnav a:hover{border-left-color:var(--spot); border-bottom-color:transparent; color:var(--ink)}
+.rail-head{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.2em; font-size:9.5px;
+  color:var(--spot); margin:0; padding:14px 0 5px 13px;
+}
+.rail-head:first-child{padding-top:0}
+  .story{scroll-margin-top:22px}
+  .opener{scroll-margin-top:22px}
+}
+:focus-visible{outline:2px solid var(--spot); outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="5" height="5" fill="none"></rect>
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#15171b" stroke-width="1.3" opacity=".26"></line>
+    </pattern>
+  </defs>
+</svg>
+
+<aside class="social" aria-label="Links">
+  <a href="https://github.com/merkle-groot/ipl-analysis" target="_blank" rel="noopener noreferrer" title="Source on GitHub">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+    <span>Code</span>
+  </a>
+  <a href="https://x.com/0x1379" target="_blank" rel="noopener noreferrer" title="@0x1379 on X">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.52 6.78 15.48 0h-1.41L8.89 5.89 4.76 0H0l6.25 8.9L0 16h1.41l5.47-6.22L11.24 16H16L9.52 6.78Zm-1.94 2.2-.63-.89L1.92 1.04h2.17l4.07 5.7.63.89 5.29 7.41h-2.17L7.58 8.98Z"/></svg>
+    <span>@0x1379</span>
+  </a>
+</aside>
+
+<div class="sheet">
+
+<header class="masthead">
+  <div class="mh-top">
+    <span>Statistical broadsheet</span>
+    <span>Indian Premier League</span>
+  </div>
+  <div class="stats">
+    <div><b>1,243</b> matches</div>
+    <div><b>37</b> grounds</div>
+    <div><b>577</b> bowlers</div>
+    <div>Seasons <b>2008&ndash;2026</b></div>
+  </div>
+</header>
+
+<input class="tabin" type="radio" name="view" id="view-findings" checked>
+<input class="tabin" type="radio" name="view" id="view-runs">
+<input class="tabin" type="radio" name="view" id="view-wickets">
+<nav class="tabs" aria-label="Choose a view">
+  <label for="view-findings">The findings</label>
+  <label for="view-runs">Working &middot; runs model</label>
+  <label for="view-wickets">Working &middot; wicket model</label>
+</nav>
+
+<div class="panel panel-findings">
+
+<nav class="secnav" aria-label="Jump to a section">
+  <p class="rail-head">The players</p>
+  <a href="#pace-spin">Pace v spin</a>
+  <a href="#famous-five">The famous five</a>
+  <a href="#above-par">Above par</a>
+  <a href="#all-or-nothing">All or nothing</a>
+  <a href="#time-in">Time in</a>
+  <a href="#clearing-rope">Clearing the rope</a>
+  <a href="#under-target">Under a target</a>
+  <p class="rail-head">The innings</p>
+  <a href="#dry-spell">Dry spells</a>
+  <a href="#bunny">Bunnies</a>
+  <a href="#getting-set">Getting set</a>
+  <a href="#new-batters">New batters</a>
+  <a href="#momentum">Momentum</a>
+  <a href="#spin">Spin at the death</a>
+  <a href="#last-over">The last over</a>
+  <a href="#chasing">Chasing</a>
+  <a href="#ceiling">The ceiling</a>
+  <a href="#boundary-boom">Sixes, not fours</a>
+  <a href="#grounds">Grounds</a>
+</nav>
+
+<div class="findings-body">
+
+<section class="opener">
+  <h1>The IPL in 284,465 deliveries</h1>
+  <p>I went through every legal delivery bowled in this competition since 2008, first to work out which players were genuinely better than the situations they were handed, and then to test the things everybody repeats about how a T20 innings actually works.</p>
+</section>
+
+<section class="story" id="pace-spin">
+  <p class="eyebrow">The players</p>
+  <h2>Two batters can average the same and be playing different sports</h2>
+  <p>Strike rates mostly describe the job a player was given rather than how well he did it, so every delivery here is scored against what the whole league managed in the same season, the same phase and against the same type of bowling. The column that comes out is runs above par per hundred balls, and the largest effects it finds are not about quality at all.</p>
+  <figure>{{scatter}}<figcaption>Batters with at least 700 balls faced against pace and 500 against spin. Distance from the dashed line is the size of the imbalance.</figcaption></figure>
+  <div class="two">
+    <div class="wrap">
+      <table>
+        <caption>Best against pace relative to spin</caption>
+        <thead><tr><th>Batter</th><th>v pace</th><th>v spin</th><th>Swing</th></tr></thead>
+        <tbody>{{pace_spec}}</tbody>
+      </table>
+    </div>
+    <div class="wrap">
+      <table>
+        <caption>Best against spin relative to pace</caption>
+        <thead><tr><th>Batter</th><th>v pace</th><th>v spin</th><th>Swing</th></tr></thead>
+        <tbody>{{spin_spec}}</tbody>
+      </table>
+    </div>
+  </div>
+  <p class="after" style="margin-top:16px">Heinrich Klaasen scores at 175 against spin and 161 against pace, while Brendon McCullum ran the other way at 142 and 115, and both gaps are larger than the distance between the best and worst batters in the competition overall.</p>
+</section>
+
+<section class="story" id="famous-five">
+  <p class="eyebrow">The big names</p>
+  <h2>The five best-known careers in the competition, adjusted for the overs they were given</h2>
+  <figure>{{phase}}<figcaption>Strike rate by phase against the league par for that same phase and era. All three sit at or below par until the last four overs.</figcaption></figure>
+  <div class="three">
+    <article class="dossier">
+      <h3>Virat Kohli</h3>
+      <p class="role">6,907 balls &middot; 9,316 runs</p>
+      <div class="strip">
+        <div><div class="v">+3.6</div><div class="k">runs above par per 100</div></div>
+        <div><div class="v sp">26%</div><div class="k">harder to dismiss than par</div></div>
+        <div><div class="v">.326</div><div class="k">dot rate against par of .382</div></div>
+      </div>
+      <p>The scoring number is good rather than remarkable, and the wicket number is where his case sits, because he is dismissed a quarter less often per ball than his situations predict while facing more deliveries than anyone above him on that list.</p>
+      <p>He gets there by wasting fewer balls rather than hitting more of them, since his boundary rate is actually below par, and his four most recent seasons read 139.8, 154.7, 144.7 and 166.0, which are the best of a nineteen-year career arriving at the end of it.</p>
+    </article>
+    <article class="dossier">
+      <h3>Rohit Sharma</h3>
+      <p class="role">5,493 balls &middot; 7,284 runs</p>
+      <div class="strip">
+        <div><div class="v">+2.4</div><div class="k">runs above par per 100</div></div>
+        <div><div class="v sp">143 / 116</div><div class="k">strike rate v pace / v spin</div></div>
+        <div><div class="v">180.5</div><div class="k">strike rate in the last four overs</div></div>
+      </div>
+      <p>Slightly above par overall, and all of it earned at the death, where he strikes at 180.5 against a par of 152.9 while his powerplay rate of 126.2 sits below par for an opener.</p>
+      <p>The split that would change a team plan is the other one: he is nearly ten runs per hundred above par against pace and nearly nine below it against spin, an eighteen-run swing that puts him among the most pace-dependent batters in the league.</p>
+    </article>
+    <article class="dossier">
+      <h3>MS Dhoni</h3>
+      <p class="role">3,935 balls &middot; 5,409 runs</p>
+      <div class="strip">
+        <div><div class="v sp">41%</div><div class="k">harder to dismiss than par</div></div>
+        <div><div class="v">154 / 110</div><div class="k">strike rate v pace / v spin</div></div>
+        <div><div class="v">&minus;1.5</div><div class="k">runs above par per 100</div></div>
+      </div>
+      <p>The most double-edged record in the dataset, because he is the hardest man here to get out with any real volume behind him, and once you adjust for the fact that he almost never batted before the seventh over he is a fractionally below-par scorer.</p>
+      <p>His middle-overs strike rate of 100.5 against a par of 121.5 gets lost inside the finisher reputation, and the spin problem is the second largest in the competition, since he survives it comfortably at a dismissal every 37.9 balls and simply cannot score off it.</p>
+    </article>
+  </div>
+  <figure style="margin-top:30px">{{bowlphase}}<figcaption>Runs conceded per over by phase, against the league par for that phase and era. The red figure is runs saved.</figcaption></figure>
+  <div class="two">
+    <article class="dossier">
+      <h3>Jasprit Bumrah</h3>
+      <p class="role">3,631 balls &middot; 187 wickets &middot; pace</p>
+      <div class="strip">
+        <div><div class="v sp">28.4</div><div class="k">runs saved per 100 balls</div></div>
+        <div><div class="v">7.00</div><div class="k">economy against par of 8.70</div></div>
+        <div><div class="v">.146</div><div class="k">boundary rate against par of .205</div></div>
+      </div>
+      <p>No batter in this newspaper beats their par by as much as Bumrah beats his, and the record is built on preventing runs rather than taking wickets, since his strike rate sits a shade below par for the overs he bowls.</p>
+      <p>He is under par in all three phases, bowls a dot with 52.1 per cent of his powerplay deliveries, and concedes 7.86 an over at the death where the league concedes 9.78, which is nearly two full runs an over better than the phase he specialises in.</p>
+    </article>
+    <article class="dossier">
+      <h3>Ravichandran Ashwin</h3>
+      <p class="role">4,710 balls &middot; 183 wickets &middot; off spin</p>
+      <div class="strip">
+        <div><div class="v sp">9.3</div><div class="k">runs saved per 100 balls</div></div>
+        <div><div class="v">6.95</div><div class="k">economy against par of 7.50</div></div>
+        <div><div class="v">.118</div><div class="k">boundary rate against par of .145</div></div>
+      </div>
+      <p>A containment record almost entirely, achieved by not being hit to the fence: his boundary rate is the second lowest of any bowler here with three thousand deliveries or more, behind only Sunil Narine.</p>
+      <p>He takes wickets at about eight per cent below par, which is what happens when a bowler works a phase where wickets are cheap and declines to chase them, and he owns the most lopsided rivalry in the dataset, having dismissed Kohli once in 149 deliveries.</p>
+    </article>
+  </div>
+</section>
+
+<section class="story" id="above-par">
+  <p class="eyebrow">Above and below par</p>
+  <h2>Who actually beat the situation they were handed</h2>
+  <div class="two">
+    <div class="wrap">
+      <table>
+        <caption>Batting &middot; runs above par per 100 balls</caption>
+        <thead><tr><th>Batter</th><th>Balls</th><th>SR</th><th>Par</th><th>+/&minus;</th></tr></thead>
+        <tbody>{{bat_top}}</tbody>
+      </table>
+    </div>
+    <div class="wrap">
+      <table>
+        <caption>Bowling &middot; runs saved per 100 balls</caption>
+        <thead><tr><th>Bowler</th><th>Balls</th><th>Econ</th><th>Par</th><th>Saved</th></tr></thead>
+        <tbody>{{bowl_top}}</tbody>
+      </table>
+    </div>
+  </div>
+  <p class="after" style="margin-top:16px">Virender Sehwag beat his situations by 39 runs per hundred balls in an era when the league scored 1.2 a ball, and paid for it by getting out about a third more often than par. At the other end Jasprit Bumrah is clear of every bowler by seven full runs per hundred. Both tables ask for 1,500 deliveries; drop that to 400 and Vaibhav Suryavanshi arrives at the top of the batting one on 447 balls, 75 runs per hundred above par, which is nearly double Sehwag.</p>
+</section>
+
+<section class="story" id="all-or-nothing">
+  <p class="eyebrow">All or nothing</p>
+  <h2>The most destructive batter in the competition is also one of the most wasteful</h2>
+  <p>A strike rate hides the shape of an innings completely, so the chart below splits it in two: how often a batter finds the boundary, and how often he fails to score at all, both measured against what the situation was worth. Almost everybody sits on a diagonal where more boundaries means fewer dots, and Andre Russell does not.</p>
+  <p>He hits 8.8 percentage points more boundaries than par and also leaves 7.6 points more balls unscored, which is the most extreme position anyone occupies on either axis. Yuvraj Singh and Kieron Pollard sit in the same corner with less of the upside. The opposite corner belongs to batters nobody describes as explosive, where Shubman Gill and Virat Kohli cut six or seven points off the par dot rate while hitting an entirely ordinary number of boundaries.</p>
+  <figure>{{boom}}<figcaption>Batters with at least 1,500 deliveries. Right of the vertical line is more dot balls than the situation deserved, above the horizontal line is more boundaries.</figcaption></figure>
+</section>
+
+<section class="story" id="time-in">
+  <p class="eyebrow">Time in</p>
+  <h2>Almost every batter needs ten balls, and one of them never did</h2>
+  <p>Splitting each career at the tenth delivery of an innings shows how large the warm-up cost really is. Shane Watson struck at 104 for his first ten balls and 164 after them, a swing of sixty runs per hundred, and David Miller, Nicholas Pooran and Kieron Pollard are all within a run or two of the same gap.</p>
+  <p>The interesting name is at the bottom. Yashasvi Jaiswal is the only batter in this sample who is not faster once set, scoring at 154 early and 152 later, which is a different way of batting rather than a better one.</p>
+  <figure>{{warmup}}<figcaption>Strike rate over the first ten balls of an innings against every ball after that, for batters with at least 400 early deliveries and 700 later ones.</figcaption></figure>
+  <div class="note">
+    <h4>The one the thresholds keep out</h4>
+    <p>Vaibhav Suryavanshi has faced 447 deliveries across 2025 and 2026, which is short of the 400-early and 700-later cut this chart uses, so he does not appear on it. His split is worth printing anyway. He strikes at 207.8 over his first ten balls and 245.3 after them, so he warms up like everybody else, by about 37 runs per hundred.</p>
+    <p>What makes him an outlier is where he starts. His cold rate of 207.8 is faster than any batter on the chart manages once set, Nicholas Pooran included at 195.3. Across all 447 balls he is 75 runs per hundred above par, roughly double Virender Sehwag&rsquo;s figure at the top of the leaderboard earlier, and he is dismissed 16 per cent more often than par to do it. Two seasons is not a career, and this is the number most likely to move.</p>
+  </div>
+</section>
+
+<section class="story" id="clearing-rope">
+  <p class="eyebrow">Clearing the rope</p>
+  <h2>Some bowlers are close to impossible to hit over the fence</h2>
+  <p>Economy rates fold together singles, boundaries and sixes, so it is worth pulling out the shot that decides most T20 matches on its own. Jasprit Bumrah concedes a six on 3.7 per cent of his deliveries where the situations he bowls in are worth 6.4, a reduction of 42 per cent, and Dale Steyn and Lasith Malinga are barely behind him.</p>
+  <p>At the other end Karn Sharma is hit for a six roughly half as often again as par, and the list beside him is mostly part-time seam. It is worth noting that Andre Russell appears on the wrong end of this table and the right end of the batting one, which is a reasonable summary of his career.</p>
+  <figure>{{sixproof}}<figcaption>Sixes conceded against the par rate for the same phase, season and type of bowling. Bowlers with at least 1,500 deliveries.</figcaption></figure>
+  <div class="two">
+    <div class="wrap">
+      <table>
+        <caption>Wickets that needed no fielder</caption>
+        <thead><tr><th>Bowler</th><th>Wkts</th><th>Bowled or lbw</th></tr></thead>
+        <tbody>{{unaided}}</tbody>
+      </table>
+    </div>
+    <div class="wrap">
+      <table>
+        <caption>Best by phase &middot; runs saved per 100 balls</caption>
+        <thead><tr><th>Bowler</th><th>Phase</th><th>Econ</th><th>Saved</th></tr></thead>
+        <tbody>{{phasebest}}</tbody>
+      </table>
+    </div>
+  </div>
+  <p class="after" style="margin-top:16px">Rashid Khan takes 47 per cent of his wickets bowled or lbw, against 12 per cent for Andre Russell and Shardul Thakur, whose wickets almost always need someone to catch the ball. Bumrah and Sunil Narine are the only two bowlers who appear in the top six of all three phases.</p>
+</section>
+
+<section class="story" id="under-target">
+  <p class="eyebrow">Under a target</p>
+  <h2>The best chaser in the competition is not the man you would name</h2>
+  <p>Comparing each batter with himself, first innings against second, produces a spread of more than forty runs per hundred balls between the ends of it. Yusuf Pathan and Dwayne Smith were both around 23 runs per hundred better chasing than setting; AB de Villiers, whose reputation is built on chases, was 21 runs per hundred worse.</p>
+  <div class="two">
+    <div class="wrap">
+      <table>
+        <caption>Better chasing than setting</caption>
+        <thead><tr><th>Batter</th><th>Setting</th><th>Chasing</th><th>Gap</th></tr></thead>
+        <tbody>{{chase_good}}</tbody>
+      </table>
+    </div>
+    <div class="wrap">
+      <table>
+        <caption>Better setting than chasing</caption>
+        <thead><tr><th>Batter</th><th>Setting</th><th>Chasing</th><th>Gap</th></tr></thead>
+        <tbody>{{chase_bad}}</tbody>
+      </table>
+    </div>
+  </div>
+  <p class="after" style="margin-top:16px">Treat this one more lightly than the rest of the page. Half a career is a much smaller sample than a whole one, and a chase that finishes early takes its easiest deliveries with it.</p>
+</section>
+
+<section class="story" id="dry-spell">
+  <p class="eyebrow">The dry spell</p>
+  <h2>A batter who has not hit a boundary for a while is not due one, he is in trouble</h2>
+  <p>The idea that pressure builds until it bursts is so embedded in how the game is described that nobody checks it, and when you do check it the line runs the other way in every phase of the innings. In the middle overs a boundary arrives on 17.2 per cent of the balls that immediately follow another boundary, and on 11.8 per cent of the balls that follow fifteen or more without one, which is a difference of about a third.</p>
+  <p>Nothing resets. A long gap between boundaries is not tension accumulating, it is evidence about the pitch, the bowler and the batter that keeps being confirmed the longer it goes on.</p>
+  <figure>{{dry}}<figcaption>Every legal ball since 2008, grouped by how many deliveries have passed since either batter last found the fence. The three lines are the three phases of an innings, measured separately so the shape is not just the powerplay showing through.</figcaption></figure>
+</section>
+
+<section class="story" id="bunny">
+  <p class="eyebrow">The bunny</p>
+  <h2>A bowler who has dismissed you twice before is no more likely to do it again</h2>
+  <p>Broadcast graphics love this match-up, and there is nothing behind it. Splitting every delivery by what had already happened between that particular batter and that particular bowler produces three groups that are indistinguishable, and not merely close: the run rates agree to three decimal places, at 1.332, 1.334 and 1.334 runs per ball.</p>
+  <p>Sixty-six thousand deliveries went into this and it still refuses to separate, which is a useful reminder that the longest individual rivalry in nineteen seasons of this competition has produced 149 balls, or about four overs a year.</p>
+  <figure>{{h2h}}<figcaption>Deliveries where the batter had faced this bowler at least a dozen times before, split by how often the bowler had already dismissed him. The dashed line is the first group's rate, carried across for comparison.</figcaption></figure>
+</section>
+
+<section class="story" id="getting-set">
+  <p class="eyebrow">Getting set</p>
+  <h2>The set batter scores faster and is also far likelier to get out</h2>
+  <div>
+    <div>
+      <p>Being set is treated as a safety condition, as though the danger were all at the start of an innings and passed once a batter had seen a few deliveries, but the risk per ball climbs steadily the longer he stays. A batter on nothing goes at 1.05 runs a ball and is dismissed on 4.5 per cent of them; a batter past fifty goes at 1.86 and is dismissed on 7.4 per cent.</p>
+      <p class="after">Both lines rise together because they are the same decision seen from two sides. The batter who has worked out the conditions starts taking the risks that the conditions allow, and the extra wickets are the price of the extra runs rather than a failure of concentration.</p>
+    </div>
+  </div>
+  <figure>{{setbat}}<figcaption>Runs per ball on the left scale, chance of dismissal on the right, plotted against the score the batter had already reached before the delivery.</figcaption></figure>
+</section>
+
+<section class="story" id="new-batters">
+  <p class="eyebrow">Two new batters</p>
+  <h2>The three balls after a wicket are the safest in the innings, not the most dangerous</h2>
+  <p>Commentary treats a fresh batter as a wicket waiting to happen, and captains attack accordingly, but in the powerplay the dismissal rate in the first three balls after a wicket falls is 3.3 per cent against 4.6 per cent a dozen balls later, and the middle overs show the same reversal at 3.0 against 4.9.</p>
+  <p>What actually collapses is the scoring, not the survival. Those same powerplay deliveries produce 0.88 runs a ball against 1.46 later in the phase, so the wicket buys the fielding side a period of quiet rather than a period of danger, and the danger returns only once the new pair has settled and started playing shots again.</p>
+  <figure>{{newbat}}<figcaption>Chance of a wicket falling, grouped by how many balls have passed since the previous one, measured separately within each phase.</figcaption></figure>
+</section>
+
+<section class="story" id="momentum">
+  <p class="eyebrow">Momentum</p>
+  <h2>The ball after a six really is different, and it is dangerous at both ends</h2>
+  <div>
+    <div>
+      <p>Of all the folklore I tested this is the one that survived. Restricting the comparison to consecutive balls in the same over, so that the bowler and the field setting cannot change underneath the measurement, the ball after a six goes for 1.72 runs against a league average of 1.34, and finds the boundary on 24.5 per cent of occasions against 17.7.</p>
+      <p class="after">The wicket line moves with it rather than against it, from 5.2 per cent on an average ball to 6.3 after a six, so a batter who has just cleared the rope is genuinely more likely to do something spectacular in either direction. Whatever is happening here, it is not calm.</p>
+    </div>
+  </div>
+  <figure>{{momentum}}<figcaption>Deliveries compared with the one immediately before them in the same over, so the bowler and the field are held constant. Dashed lines mark the all-ball averages.</figcaption></figure>
+</section>
+
+<section class="story" id="spin">
+  <p class="eyebrow">Who bowls the seventeenth</p>
+  <h2>Spin is the cheaper option almost to the end of the innings, and captains stop using it long before that</h2>
+  <p>Spinners concede fewer runs per ball than seamers in every single over from the seventh to the eighteenth, and the gap is at its widest around the sixteenth, where spin goes at 1.43 and pace at 1.51. Over the same stretch the share of overs handed to spin falls from around sixty per cent to under a fifth.</p>
+  <p>The pattern only inverts in the last two overs, where pace finally becomes the better option, by which point spin is bowling about nine per cent of the deliveries anyway. There is a plausible defence of all this, since a captain is protecting his best seamers for the finish and a spinner who goes for four sixes has no way back, but the raw ledger says the seventeenth over is being given to the more expensive bowler.</p>
+  <figure>{{spin}}<figcaption>Runs conceded per ball by each type, over by over, with the share of overs actually given to spin shown beneath.</figcaption></figure>
+</section>
+
+<section class="story" id="last-over">
+  <p class="eyebrow">The last over</p>
+  <h2>The most explosive over of the innings is also the one with the most dot balls</h2>
+  <div>
+    <div>
+      <p>Sixes and dots are usually described as opposites, and across the closing overs they climb together. The twentieth over produces a six on 11.3 per cent of its deliveries, more than any other, and it also produces more balls that score nothing than the eighteenth or nineteenth do.</p>
+      <p class="after">This is what an innings looks like when every ball is being attacked without exception. The yorker that beats the swing and the slower ball that is missed entirely both come out as dots, and a wicket falls on 13.6 per cent of the deliveries, roughly one in seven.</p>
+    </div>
+  </div>
+  <figure>{{lastover}}<figcaption>The closing five overs of an innings, showing the share of deliveries producing a six, a dot and a wicket.</figcaption></figure>
+</section>
+
+<section class="story" id="chasing">
+  <p class="eyebrow">Chasing</p>
+  <h2>Knowing the target makes the closing overs harder, not easier</h2>
+  <p>A chasing side is supposed to have the advantage of information, and through the powerplay it does score a little faster, but at the death the position reverses and the team batting first scores 1.62 runs a ball against the chasing team's 1.52.</p>
+  <p>Some of that is arithmetic rather than nerves, because a chase that is comfortably won stops needing runs, but the wicket rate does not fall to match, which suggests the gap is not only about teams coasting home.</p>
+  <figure>{{chase}}<figcaption>Runs per ball by phase, split by whether the batting side was setting a target or chasing one.</figcaption></figure>
+</section>
+
+<section class="story" id="ceiling">
+  <p class="eyebrow">The ceiling</p>
+  <h2>Past about twelve an over, asking for more runs does not produce more runs</h2>
+  <div>
+    <div>
+      <p>Teams respond to a rising required rate exactly as you would expect until the target passes roughly twelve an over, and then the response stops. Chases needing twelve to fifteen score 1.48 runs a ball; chases needing more than fifteen score 1.46, which is slightly less.</p>
+      <p class="after">The dismissal rate keeps climbing regardless, from 6.0 per cent to 8.2, so the extra ambition converts into wickets rather than runs. There appears to be a hard limit on how fast a T20 side can be made to score, and beyond it the only thing that changes is how quickly the innings ends.</p>
+    </div>
+  </div>
+  <figure>{{rrr}}<figcaption>Chases with at least two overs remaining, grouped by the run rate still required. Runs scored on the left, dismissals on the right.</figcaption></figure>
+</section>
+
+<section class="story" id="boundary-boom">
+  <p class="eyebrow">The boundary boom</p>
+  <h2>Scoring has risen by a fifth in nineteen years and almost none of it is fours</h2>
+  <p>The competition's run rate has gone up by about twenty per cent since 2008, and the natural assumption is that batting has improved across the board. It has not. The share of deliveries hit for six has risen by seventy-nine per cent, from one ball in twenty-one to one in twelve, while the share hit for four has moved by six per cent, which over nineteen seasons is close to nothing.</p>
+  <figure>{{sixes}}<figcaption>Share of all legal deliveries producing a four and a six, by season.</figcaption></figure>
+</section>
+
+<section class="story" id="grounds">
+  <p class="eyebrow">The pitch report</p>
+  <h2>Grounds differ enormously in runs and hardly at all in wickets</h2>
+  <div>
+    <div>
+      <p>Venues are separated by a third in scoring, from 1.16 runs a ball at Kingsmead to 1.51 at Mullanpur, which is the sort of gap that dominates a pitch report. Plot those same grounds against how often a wicket falls there and the relationship disappears.</p>
+      <p class="after">A high-scoring ground is not a ground where batting is safe, and a low-scoring one is not a ground where bowlers get rewarded. Sides appear to adjust their risk to the conditions until the wicket column comes out roughly level everywhere, which also explains something I found when trying to predict deliveries: knowing which stadium a ball was bowled at added nothing at all.</p>
+    </div>
+  </div>
+  <figure>{{grounds}}<figcaption>The twenty grounds with at least 3,000 deliveries. Horizontal position is scoring, vertical is the wicket rate, and the dashed line is the average across all of them.</figcaption></figure>
+</section>
+
+<div class="note">
+  <h4>What "par" means here</h4>
+  <p>Every delivery is compared with what the whole league managed in the same season, the same phase of the innings and against the same type of bowling, which removes the twenty per cent scoring inflation of the last nineteen years and most of the advantage of batting in a particular slot. It does not remove the quality of the opposition, the ground or the state of the match, so a batter who spent his career against weak attacks will still come out looking good.</p>
+</div>
+
+<div class="colophon">
+  <h4>Colophon</h4>
+  <p>Ball-by-ball records for 1,243 matches across seasons 2008 to 2026, covering 295,557 deliveries of which 284,465 were legal. Bowling actions and batting stances were reconstructed separately for all 577 bowlers, since the source data records neither. Every group compared above holds at least a few thousand deliveries unless stated otherwise, and the individual head-to-head figures are printed because they are interesting rather than because they are evidence, since even the longest rivalry here is only 149 balls.</p>
+  <p>The par comparisons and the counter-intuitive findings are descriptions of what happened, not causal claims. Where this page says that something adds nothing, that comes from prediction models fitted on the 2008 to 2023 seasons and scored on the two most recent ones, and those seasons were looked at more than once while the work was going on, so the smaller differences should be treated as worth checking again rather than settled.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="panel panel-runs">{{nb_runs}}</div>
+<div class="panel panel-wickets">{{nb_wickets}}</div>
+
+</div>

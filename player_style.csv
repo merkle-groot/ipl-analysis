@@ -1,0 +1,807 @@
+player,bowled,faced,bowler_type,bowler_arm,spin_kind,bat_hand,source_text,bat_source_text
+V Kohli,264,7123,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+RA Jadeja,4329,2816,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+RG Sharma,349,5656,spin,right,finger,right,Right-arm off break,Right-handed
+SP Narine,4721,1178,spin,right,finger,left,Right-arm off break,Left-handed
+R Ashwin,4868,728,spin,right,finger,right,Right-arm off-break,Right-handed
+S Dhawan,49,5481,spin,right,finger,left,Right-arm off break,Left-handed
+AR Patel,3633,1635,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+B Kumar,4769,392,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+SK Raina,930,4174,spin,right,finger,left,Right-arm off-spin,Left-handed
+SR Watson,2137,2888,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+DA Warner,2,4844,spin,right,wrist,left,Right arm Leg spin leg break,Left-handed
+DJ Bravo,3296,1247,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+PP Chawla,3895,580,spin,right,wrist,left,Right-arm leg break,Left-handed
+AM Rahane,6,4391,spin,right,finger,right,Right-arm off spin,Right-handed
+KH Pandya,2779,1539,spin,left,finger,left,Slow left arm orthodox,Left-handed
+KL Rahul,0,4293,,,,right,,Right-handed
+YS Chahal,4167,89,spin,right,wrist,right,Right-arm leg break,Right-handed
+Harbhajan Singh,3496,636,spin,right,finger,right,Right-arm off-spin,Right-handed
+MS Dhoni,0,4101,,,,right,Right-arm Pace bowling medium,Right-handed
+JH Kallis,1799,2291,pace,right,,right,Right arm Fast bowling fast-medium,Right-handed
+CH Gayle,584,3502,spin,right,finger,left,Right-arm off-break,Left-handed
+KA Pollard,1586,2433,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Rashid Khan,3572,432,spin,right,wrist,right,Leg spin Leg break googly,Right-handed
+HH Pandya,1865,2110,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+RV Uthappa,0,3925,,,,right,Right-arm pace bowling medium,Right-handed
+A Mishra,3444,440,spin,right,wrist,right,Right-arm leg break,Right-handed
+JJ Bumrah,3768,89,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+SV Samson,0,3770,,,,right,,Right-handed
+KD Karthik,0,3684,,,,right,Right-arm off break,Right-handed
+F du Plessis,6,3605,spin,right,wrist,right,Right-arm leg-break,Right-handed
+G Gambhir,0,3524,,,,left,Right-arm leg spin leg break,Left-handed
+YK Pathan,1184,2330,spin,right,finger,right,Right arm off spin off break,Right-handed
+AD Russell,1885,1623,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+AT Rayudu,0,3490,,,,right,Right-arm off-spin,Right-handed
+AB de Villiers,0,3479,,,,right,Right arm medium,Right-handed
+MK Pandey,0,3402,,,,right,Right-arm medium,Right-handed
+UT Yadav,3184,211,pace,right,,right,Right-arm fast bowling fast,Right-handed
+Sandeep Sharma,3291,79,pace,right,,right,Right-arm fast medium,Right-handed
+Shubman Gill,0,3339,,,,right,Right-arm off break,Right-handed
+SS Iyer,6,3209,spin,right,wrist,right,Right-arm leg break,Right-handed
+JC Buttler,0,3206,,,,right,,Right-handed
+SA Yadav,6,3153,spin,right,finger,right,Right-arm off break,Right-handed
+Mohammed Shami,3026,116,pace,right,,right,Right-arm fast bowling fast,Right-handed
+IK Pathan,2113,981,pace,left,,left,Left-arm medium-fast,Left-handed
+Yuvraj Singh,882,2205,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+SL Malinga,2974,103,pace,right,,right,Right-arm fast bowling fast,Right-handed
+TA Boult,2888,90,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+Mohammed Siraj,2834,144,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+P Kumar,2637,323,pace,right,,right,Right-arm medium-fast,Right-handed
+GJ Maxwell,1047,1895,spin,right,finger,right,Right-arm off break,Right-handed
+HV Patel,2654,250,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+RR Pant,0,2727,,,,left,Right-arm Pace bowling medium,Left-handed
+K Rabada,2386,256,pace,right,,left,Right-arm Fast bowling fast,Left-handed
+SN Thakur,2355,276,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+I Sharma,2546,71,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Q de Kock,0,2615,,,,left,role = Wicket-keeper,Left-handed
+MM Sharma,2471,140,pace,right,,right,Right arm Fast bowling fast-medium,Right-handed
+Kuldeep Yadav,2336,263,spin,left,wrist,left,Left-arm wrist spin,Left-handed
+JD Unadkat,2418,173,pace,left,,right,Left-arm Medium bowler medium,Right-handed
+Ishan Kishan,1,2579,spin,right,wrist,left,"Leg break, Off-break",Left-handed
+MP Stoinis,975,1588,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+N Rana,223,2314,spin,right,finger,left,Right-arm off break,Left-handed
+JA Morkel,1807,711,pace,right,,left,Right-arm Fast bowling medium-fast,Left-handed
+R Vinay Kumar,2179,289,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+PA Patel,0,2442,,,,left,,Left-handed
+DA Miller,0,2440,,,,left,Right-arm off break,Left-handed
+DW Steyn,2276,163,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Z Khan,2276,141,pace,left,,right,Left-arm fast-medium,Right-handed
+JP Duminy,701,1680,spin,right,finger,left,Right-arm Off spin offbreak,Left-handed
+WP Saha,0,2368,,,,right,Right-arm off-spin,Right-handed
+DR Smith,557,1803,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+PJ Cummins,1883,437,pace,right,,right,Right-arm pace bowling fast,Right-handed
+DL Chahar,2171,105,pace,right,,right,Right arm Fast bowling medium,Right-handed
+BB McCullum,0,2267,,,,right,Right-arm Fast bowling medium Right-arm off break,Right-handed
+M Vijay,37,2208,spin,right,finger,right,Right-arm off break,Right-handed
+CV Varun,2187,56,spin,right,wrist,right,Right-arm leg break googly,Right-handed
+Arshdeep Singh,2167,49,pace,left,,left,Left-arm Fast Bowling medium-fast,Left-handed
+CH Morris,1794,413,pace,right,,right,Right arm Fast bowling fast-medium,Right-handed
+Shakib Al Hasan,1515,663,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+RD Gaikwad,0,2154,,,,right,Right arm off break,Right-handed
+MA Agarwal,0,2144,,,,right,Right-arm off break,Right-handed
+SR Tendulkar,37,2044,spin,right,wrist,right,Right-arm leg break Right-arm off break }},Right-handed
+SM Curran,1308,761,pace,left,,left,Left-arm Fast bowling medium-fast,Left-handed
+A Nehra,1974,63,pace,left,,right,Left arm Fast bowling fast,Right-handed
+SPD Smith,2,1994,spin,right,wrist,right,Right-arm leg break,Right-handed
+PP Ojha,1945,45,spin,left,finger,left,Slow left arm orthodox,Left-handed
+DS Kulkarni,1876,113,pace,right,,right,Right-arm medium,Right-handed
+V Sehwag,138,1833,spin,right,finger,right,Right arm off spin off break,Right-handed
+RP Singh,1874,78,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+R Bhatia,1661,290,pace,right,,right,Right arm medium-fast,Right-handed
+Ravi Bishnoi,1857,71,spin,right,wrist,right,Right-arm legbreak,Right-handed
+R Dravid,0,1918,,,,right,Right arm off break,Right-handed
+KV Sharma,1611,307,spin,right,wrist,left,Right arm leg break googly,Left-handed
+SE Marsh,0,1908,,,,left,Slow left-arm orthodox,Left-handed
+JC Archer,1658,232,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Avesh Khan,1840,46,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+MR Marsh,593,1291,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Washington Sundar,1186,689,spin,right,finger,left,Right-arm off break,Left-handed
+M Prasidh Krishna,1831,31,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+R Tewatia,866,994,spin,right,wrist,left,Right-arm leg break,Left-handed
+RD Chahar,1728,127,spin,right,wrist,right,Right-arm leg break,Right-handed
+Abhishek Sharma,374,1471,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+M Morkel,1699,93,pace,right,,left,Right-arm fast bowling fast,Left-handed
+MC Henriques,979,801,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+D Padikkal,0,1779,,,,left,Right-arm off break,Left-handed
+B Sai Sudharsan,0,1760,,,,left,Right-arm leg break,Left-handed
+YBK Jaiswal,1,1750,spin,right,wrist,left,Right-arm leg break,Left-handed
+KK Ahmed,1741,9,pace,left,,right,Left-arm Fast bowling fast medium,Right-handed
+KS Williamson,18,1731,spin,right,finger,right,Right-arm off-break,Right-handed
+AJ Finch,44,1692,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+MM Ali,869,865,spin,right,finger,left,Right-arm off break,Left-handed
+S Dube,162,1555,pace,right,,left,Right-arm Fast bowling medium fast,Left-handed
+RA Tripathi,6,1707,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+R Parag,334,1357,spin,right,wrist,right,"Right-arm Off spin off break , Leg spin leg break",Right-handed
+JP Faulkner,1276,405,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+MEK Hussey,0,1648,,,,left,Right-arm Medium pace bowling medium,Left-handed
+AB Dinda,1589,50,pace,right,,right,Right-arm Fast bowling fast medium,Right-handed
+T Natarajan,1631,7,pace,left,,left,Left-arm Fast bowling medium,Left-handed
+N Pooran,0,1626,,,,left,Right-arm off break,Left-handed
+L Balaji,1574,50,pace,right,,right,Right-arm fast bowling fast medium,Right-handed
+SK Trivedi,1557,61,pace,right,,right,Right-arm fast bowling fast medium,Right-handed
+M Muralitharan,1577,30,spin,right,finger,right,Right-arm off spin off break,Right-handed
+SC Ganguly,280,1326,pace,right,,left,Right-arm fast bowling medium,Left-handed
+DJ Hooda,391,1212,spin,right,finger,right,Right-arm off break,Right-handed
+JO Holder,1285,272,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+AC Gilchrist,1,1555,spin,right,,left,manual (docs/BOWLER_STYLE_TODO.md),Left-handed
+MK Tiwary,45,1489,spin,right,wrist,right,Right-arm leg break,Right-handed
+S Nadeem,1444,88,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+DPMD Jayawardene,0,1520,,,,right,Right-arm Fast bowling medium,Right-handed
+AK Markram,230,1263,spin,right,finger,right,Right-arm off break,Right-handed
+MG Johnson,1297,168,pace,left,,left,Left-arm Fast bowling fast,Left-handed
+Mustafizur Rahman,1419,24,pace,left,,left,Left-arm fast-medium,Left-handed
+SK Warne,1223,219,spin,right,wrist,right,Right-arm Leg spin leg break,Right-handed
+BA Stokes,723,718,pace,right,,left,Right-arm Fast bowling fast-medium,Left-handed
+Mandeep Singh,12,1418,pace,right,,right,Right-arm medium,Right-handed
+KC Sangakkara,0,1424,,,,left,Right-arm off spin off break,Left-handed
+DJ Hussey,323,1101,spin,right,finger,right,Right-arm Off spin offbreak,Right-handed
+MM Patel,1382,41,pace,right,,right,Right arm fast bowling fast medium,Right-handed
+MJ McClenaghan,1346,73,pace,left,,left,Left-arm Fast bowling fast medium,Left-handed
+AD Mathews,807,599,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+BJ Hodge,238,1153,spin,right,finger,right,Right-arm off break,Right-handed
+MA Starc,1258,122,pace,left,,left,Left-arm Fast bowling fast,Left-handed
+Imran Tahir,1340,37,spin,right,wrist,right,Right-arm leg spin leg break,Right-handed
+TG Southee,1262,108,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+Tilak Varma,23,1344,spin,right,finger,left,right-arm off-break,Left-handed
+NV Ojha,0,1360,,,,right,role = Wicket-keeper batsman,Right-handed
+KK Nair,0,1332,,,,right,Right-arm off break,Right-handed
+DT Christian,922,408,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+TM Dilshan,275,1047,spin,right,finger,right,Right-arm off spin,Right-handed
+PP Shaw,0,1321,,,,right,Right-arm off break,Right-handed
+A Symonds,540,781,spin,right,finger,right,Right-arm medium Right-arm off break }},Right-handed
+H Klaasen,0,1320,,,,right,Right-arm off spin,Right-handed
+STR Binny,611,700,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+VR Iyer,84,1223,pace,right,,left,Right-arm fast medium medium,Left-handed
+C Green,603,702,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+M Kartik,1182,109,spin,left,finger,left,Slow left arm orthodox,Left-handed
+SS Tiwary,0,1291,,,,left,Right-arm off-break,Left-handed
+S Kaul,1238,36,pace,right,,right,Right-arm fast bowling medium,Right handed
+M Jansen,1081,186,pace,left,,right,Left-arm fast bowling fast,Right-handed
+JR Hazlewood,1214,31,pace,right,,left,Right-arm Fast bowling fast-medium,Left-handed
+S Badrinath,0,1245,,,,right,Right-arm off break,Right-handed
+V Shankar,258,985,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+TU Deshpande,1194,38,pace,right,,left,Right-arm medium,Left-handed
+A Nortje,1169,52,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+P Simran Singh,0,1220,,,,right,,Right-handed
+Noor Ahmad,1141,59,spin,left,wrist,right,Left-arm unorthodox spin,Right-handed
+LH Ferguson,1145,49,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Shahbaz Ahmed,675,516,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+JM Bairstow,0,1181,,,,right,,Right-handed
+EJG Morgan,0,1179,,,,left,role = Batting order (cricket)#Middle order Middle-order batter,Left-handed
+S Gopal,1000,173,spin,right,wrist,right,Right-arm leg break,Right-handed
+VR Aaron,1065,73,pace,right,,right,Right-arm fast,Right-handed
+SB Jakati,1101,30,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+SO Hetmyer,0,1106,,,,left,,Left-handed
+Harpreet Brar,875,217,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Y Venugopal Rao,222,865,spin,right,finger,right,Right arm off spin,Right-handed
+J Botha,709,364,spin,right,finger,right,Right-arm off break,Right-handed
+LS Livingstone,321,725,spin,right,wrist,right,"Right-arm Off spin off break , Leg spin leg break }}",Right-handed
+NLTC Perera,715,324,pace,right,,left,Right-arm Fast bowling medium-fast,Left-handed
+RM Patidar,0,1035,,,,right,Right-arm Off spin off break,Right-handed
+P Negi,733,301,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+A Kumble,983,49,spin,right,wrist,right,leg spin Leg break,Right-handed
+Iqbal Abdulla,943,86,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+TM Head,64,959,spin,right,finger,left,Right-arm off break,Left-handed
+B Lee,916,102,pace,right,,right,Right-arm fast bowling fast,Right-handed
+KM Jadhav,0,1012,,,,right,Right-arm off-break,Right-handed
+R Sharma,935,77,spin,right,wrist,right,Legbreak googly,Right-handed
+S Sreesanth,947,57,pace,right,,right,Right-arm fast-medium,Right-handed
+RK Singh,0,1004,,,,left,Right-arm off break,Left-handed
+MS Gony,925,76,pace,right,,right,Right-arm fast bowling medium,Right-handed
+AB Agarkar,820,160,pace,right,,right,right-arm fast medium,right-handed
+RJ Harris,865,112,pace,right,,right,Right-arm fast bowling fast,Right-handed
+CA Lynn,0,974,,,,right,Slow left-arm orthodox,Right-handed
+NM Coulter-Nile,892,75,pace,right,,right,Right-arm fast,Right-handed
+VG Arora,931,28,pace,right,,right,Right arm Fast bowling medium-fast,Right-handed
+PJ Sangwan,905,47,pace,left,,right,Left-arm Fast bowling medium,Right-handed
+M Ashwin,898,50,spin,right,wrist,right,Right-arm leg break,Right-handed
+KP Pietersen,180,758,spin,right,finger,right,Right arm off break,Right-handed
+M Theekshana,902,34,spin,right,finger,right,Right-arm off spin off break,Right-handed
+Yash Dayal,920,9,pace,left,,right,Left arm fast bowling fast-medium,Right-handed
+A Badoni,41,885,spin,right,finger,right,Right arm Offspin off break,Right-handed
+Nithish Kumar Reddy,349,566,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+DL Vettori,785,118,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+PWH de Silva,808,95,spin,right,wrist,right,Right-arm Leg break,Right-handed
+Mukesh Kumar,879,20,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+LMP Simmons,18,878,pace,right,,right,Types of bowlers in cricket Right-arm fast-medium,Right-handed
+R Dhawan,693,188,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+ST Jayasuriya,301,573,spin,left,finger,left,Slow left arm orthodox,Left-handed
+M Vohra,0,863,,,,right,Right arm Fast bowling fast-medium,Right-handed
+Azhar Mahmood,552,311,pace,right,,right,Right-arm medium-fast,Right-handed
+LRPL Taylor,13,847,spin,right,finger,right,Right-arm off break,Right-handed
+S Aravind,788,59,pace,left,,left,Left-arm medium-fast,Left-handed
+WD Parnell,758,86,pace,left,,left,Left-arm Fast bowling medium-fast,Left-handed
+ML Hayden,0,838,,,,left,Right-arm fast-medium,Left-handed
+HH Gibbs,0,837,,,,right,Right arm fast bowling medium,Right-handed
+MJ Santner,704,132,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+AM Nayar,239,588,pace,right,,left,Right-arm Fast bowling Medium,Left-handed
+Suyash Sharma,822,0,spin,right,wrist,right,Right-arm leg spin leg-break,Right-handed
+CL White,46,769,spin,right,wrist,right,Right-arm leg break,Right-handed
+M Markande,768,44,spin,right,wrist,right,Right-arm leg break,Right-handed
+Dhruv Jurel,0,801,,,,right,,Right-handed
+Kartik Tyagi,775,26,pace,right,,right,Right arm fast,Right-handed
+M Pathirana,797,0,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+DP Conway,0,794,,,,left,Right-arm Fast bowling medium,Left-handed
+AJ Tye,714,79,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+CJ Jordan,709,81,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+P Awana,774,14,pace,right,,right,manual (docs/BOWLER_STYLE_TODO.md),Right-handed
+K Gowtham,599,159,spin,right,finger,right,Right-arm off-break,Right-handed
+JM Sharma,0,752,,,,right,,Right-handed
+CJ Anderson,315,436,pace,left,,left,Left-arm Fast bowling medium-fast,Left-handed
+PD Salt,0,746,,,,right,Right-arm off spin,Right-handed
+Shivam Mavi,687,58,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+TL Suman,152,587,spin,right,finger,right,Right-arm off break,Right-handed
+MS Bisla,0,737,,,,right,role = Wicket-keeper,Right-handed
+Harshit Rana,679,57,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Navdeep Saini,695,38,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+PV Tambe,674,39,spin,right,wrist,right,Right arm leg break,Right-handed
+Mohsin Khan,678,31,pace,left,,left,Left arm Fast bowling medium fast,Left-handed
+JD Ryder,241,466,pace,right,,left,Right-arm Fast bowling medium,Left-handed
+T Stubbs,37,666,spin,right,finger,right,Right-arm Off spin off break,Right-handed
+TH David,6,697,spin,right,finger,right,Right-arm off break,Right-handed
+DP Nannes,689,13,pace,left,,right,Left-arm fast-medium,Right-handed
+GC Smith,0,691,,,,left,Right arm off spin off break,Left-handed
+LR Shukla,326,358,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+JR Hopes,369,314,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Shashank Singh,93,588,spin,right,finger,right,Right-arm Fast bowling medium Right-arm Off spin offbreak }},Right-handed
+RS Bopara,213,468,pace,right,,right,Right-arm fast bowling medium,Right-handed
+KK Cooper,600,70,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Abdul Samad,58,596,spin,right,wrist,right,Right-arm leg break,Right-handed
+L Ngidi,645,9,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+A Raghuvanshi,0,628,,,,right,Slow left-arm orthodox,Right-handed
+DE Bollinger,600,23,pace,left,,left,Left-arm Fast bowling fast,Left-handed
+AS Rajpoot,567,41,pace,right,,right,Right-arm Fast Bowling#Categorisation medium-fast,Right-handed
+N Wadhera,17,583,spin,right,wrist,left,Right-arm Leg spin Legbreak,Left-handed
+RE van der Merwe,455,144,spin,left,finger,right,Left-arm orthodox spin Slow left-arm orthodox,Right-handed
+Lalit Yadav,294,301,spin,right,finger,right,Right-arm offbreak,Right-handed
+WG Jacks,203,385,spin,right,finger,right,Right-arm off break,Right-handed
+Harmeet Singh,574,12,pace,right,,right,Right-arm medium,Right-handed
+PC Valthaty,153,432,spin,right,finger,right,Right-arm offbreak,Right-handed
+Basil Thampi,539,37,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+Mohammad Nabi,419,155,spin,right,finger,right,Right-arm off spin,Right-handed
+DS Rathi,561,9,spin,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+M Shahrukh Khan,18,551,spin,right,finger,right,Right-arm off break,Right-handed
+A Kamboj,513,55,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Vijaykumar Vyshak,550,17,pace,right,,right,Right arm medium,Right-handed
+MF Maharoof,441,124,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+SW Tait,534,26,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Rasikh Salam,517,43,pace,right,,right,Right-arm fast medium,Right-handed
+Bipul Sharma,436,124,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+SN Khan,2,556,spin,right,wrist,right,Legbreak,Right-handed
+GJ Bailey,0,552,,,,right,Right-arm Fast bowling medium,Right-handed
+R McLaren,372,178,pace,right,,left,Right-arm Fast bowling medium-fast,Left-handed
+Abishek Porel,0,548,,,,left,,Left-handed
+R Shepherd,381,161,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+CR Woakes,463,77,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Umran Malik,519,16,pace,right,,right,Right-arm fast,Right-handed
+E Malinga,516,18,pace,right,,left,Right-arm Fast bowling medium fast,Left-handed
+BB Sran,516,14,pace,left,,left,Left-arm fast bowling fast-medium,Left-handed
+M Manhas,42,486,spin,right,finger,right,Right-arm off spin off-break,Right-handed
+Mukesh Choudhary,512,8,pace,left,,left,Left arm medium,Left-handed
+Gurkeerat Singh,82,436,spin,right,finger,right,Right-arm off break,Right-handed
+RD Rickelton,0,513,,,,left,Slow left-arm orthodox,Left-handed
+C Sakariya,479,31,pace,left,,left,Left-arm medium-fast,Left-handed
+RR Powar,443,64,spin,right,finger,right,Right-arm off spin,Right-handed
+Arshad Khan,400,102,pace,left,,left,Left-arm medium,Left-handed
+Yash Thakur,501,0,pace,right,,,Right-arm fast-medium,bowling = Right-arm fast-medium
+A Zampa,475,25,spin,right,wrist,right,Right-arm Leg-spin Leg-Break,Right-handed
+E Lewis,0,499,,,,left,Right-arm Fast bowling medium,Left-handed
+Naman Dhir,53,444,spin,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+A Singh,486,10,pace,right,,right,Right-arm medium-fast,Right-handed
+J Suchith,434,62,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+DJG Sammy,244,251,pace,right,,right,Right-arm medium-fast,Right-handed
+R Sai Kishore,477,16,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Priyansh Arya,0,491,,,,left,Right-arm. Off spin offbreak,Left-handed
+GB Hogg,466,22,spin,left,wrist,left,Left-arm Left-arm unorthodox spin wrist spin,Left-handed
+AS Joseph,454,32,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Prince Yadav,474,12,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+MK Lomror,94,389,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+AL Menaria,113,367,spin,left,finger,left,Slow left arm orthodox,Left-handed
+Mujeeb Ur Rahman,465,15,spin,right,finger,right,Right-arm off-spin off break,Right-handed
+Anureet Singh,430,47,pace,right,,right,Right-arm medium-fast,Right-handed
+Azmatullah Omarzai,369,105,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+V Suryavanshi,0,473,,,,left,Slow left-arm orthodox,Left-handed
+IC Pandey,469,2,pace,right,,right,Right-arm medium-fast,Right-handed
+PVD Chameera,420,49,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+A Ashish Reddy,270,196,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+JEC Franklin,155,309,pace,left,,left,Left-arm medium,Left-handed
+JJ Roy,0,460,,,,right,Right-arm fast bowling medium,Right-handed
+C de Grandhomme,230,229,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+Ankit Sharma,375,69,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+SE Rutherford,46,393,pace,right,,left,Right-arm Fast bowling Fast medium,Left-handed
+DR Sams,389,48,pace,left,,right,Left-arm fast bowling fast-medium,Right-handed
+J Yadav,398,38,spin,right,finger,right,Right-arm off-break,Right-handed
+D Brevis,3,432,spin,right,wrist,right,Right-arm leg-break,Right-handed
+BCJ Cutting,288,146,pace,right,,right,Right-arm fast-medium,Right-handed
+Naveen-ul-Haq,407,26,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+R Powell,21,409,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+HM Amla,0,418,,,,right,Right-arm off spin off break,Right-handed
+RP Meredith,415,3,pace,right,,right,Right-arm fast bowling fast,Right-handed
+AS Roy,351,66,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+NT Ellis,390,26,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+D Wiese,307,105,pace,right,,right,Right arm Fast bowling medium-fast,Right-handed
+OA Shah,0,405,,,,right,Right-arm Off spin off break,Right-handed
+CA Pujara,0,403,,,,right,Right arm leg break,Right-handed
+SW Billings,0,399,,,,right,,Right-handed
+SM Pollock,280,116,pace,right,,right,Right arm fast bowling fast-medium,Right-handed
+V Nigam,301,92,spin,right,wrist,right,Right-arm Leg Break,Right-handed
+MN Samuels,219,174,spin,right,finger,right,Right-arm off break,Right-handed
+N Burger,383,9,pace,left,,left,Left-arm Fast bowling fast-medium,Left-handed
+Akash Madhwal,376,14,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+BW Hilfenhaus,390,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+AD Mascarenhas,310,79,pace,right,,right,Right-arm Seam bowling medium-fast,Right-handed
+KA Jamieson,315,74,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+AN Ahmed,362,27,pace,right,,right,Right-arm Fast bowler fast-medium,Right-handed
+JP Behrendorff,379,9,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+VY Mahesh,359,28,pace,right,,right,Right-arm Fast bowling (cricket) medium-fast,Right-handed
+CR Brathwaite,266,120,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+KW Richardson,345,39,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+R Sathish,144,236,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+VRV Singh,371,3,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+GH Vihari,43,331,spin,right,finger,right,Right-arm off-break,Right-handed
+WPUJC Vaas,288,73,pace,left,,left,Left-arm fast bowling fast medium,Left-handed
+TK Curran,252,108,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Ashutosh Sharma,0,356,,,,right,Right-arm Fast bowling medium,Right-handed
+SB Styris,222,134,pace,right,,right,Right-arm fast bowling medium,Right-handed
+JDP Oram,244,110,pace,right,,left,Right-arm Fast bowling fast-medium,Left-handed
+SA Asnodkar,0,352,,,,right,Right-arm off break,Right-handed
+AC Thomas,327,19,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+DB Ravi Teja,18,325,spin,right,wrist,right,Right-arm leg spin,Right-handed
+Y Nagar,72,271,spin,right,finger,right,Right arm Offbreak,Right-handed
+A Mithun,312,26,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+GD McGrath,329,5,pace,right,,right,Right arm Fast bowling fast-medium,Right-handed
+JP Inglis,0,328,,,,right,role = Wicket-keeper-batter,Right-handed
+DJ Mitchell,51,274,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+G Coetzee,292,33,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+R Rampaul,272,52,pace,right,,left,Right arm fast bowling fast medium,Left-handed
+Pankaj Singh,311,12,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+KR Mayers,46,276,pace,right,,left,Right-arm Fast bowling medium,Left-handed
+RN ten Doeschate,83,238,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+RR Rossouw,0,321,,,,left,Right-arm Off spin off break,Left-handed
+MV Boucher,0,318,,,,right,Right arm fast bowling medium,Right-handed
+Akash Deep,302,14,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+C Connolly,0,316,,,,left,Slow left-arm orthodox,Left-handed
+JDS Neesham,222,93,pace,right,,left,Right-arm Fast bowling medium-fast,Left-handed
+J Overton,217,98,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+UBT Chand,0,314,,,,right,Right-arm off break,Right-handed
+SJ Srivastava,306,5,pace,left,,right,Left-arm fast-medium,Right-handed
+S Sohal,0,311,,,,right,Legbreak,Right handed
+BA Bhatt,303,7,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+R Ravindra,12,298,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+K Kartikeya,290,18,spin,left,wrist,right,"Slow Left arm Orthodox, Left arm Wrist spin",Right-handed
+SP Goswami,0,307,,,,left,Right-arm Fast bowling medium,Left-handed
+K Goel,67,239,pace,right,,left,Right-arm medium,Left-handed
+AA Jhunjhunwala,88,218,spin,right,finger,right,Right-arm off-break,Right-handed
+Sameer Rizvi,0,304,,,,right,Right arm off break,Right-handed
+Joginder Sharma,272,30,pace,right,,right,Right arm fast bowling fast-medium,Right-handed
+Brijesh Sharma,297,4,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+XC Bartlett,269,29,pace,right,,right,Right-arm Pace bowling fast-medium,Right-handed
+Sohail Tanvir,265,31,pace,left,,left,Left-arm Fast bowling medium-fast,Left-handed
+AB McDonald,188,103,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+Shivang Kumar,240,50,spin,left,,,manual (docs/BOWLER_STYLE_TODO.md),
+S Badree,263,25,spin,right,wrist,right,Right-arm leg spin,Right-handed
+DJ Willey,221,64,pace,left,,left,Left-arm Fast bowling fast-medium,Left-handed
+AP Tare,0,285,,,,right,,Right-handed
+Rahmanullah Gurbaz,0,283,,,,right,,Right-handed
+AG Murtaza,269,14,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Sakib Hussain,274,7,pace,right,,,Right-arm fast-medium,Right footed
+Fazalhaq Farooqi,266,15,pace,left,,right,Left-arm fast,Right-handed
+HR Shokeen,213,67,spin,right,finger,right,Right-arm off break,Right-handed
+Ramandeep Singh,66,212,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+Anuj Rawat,0,276,,,,left,role = Wicket-keeper-batter,Left-handed
+Simarjeet Singh,256,15,pace,right,,right,Right arm Fast bowling medium fast,Right handed
+AF Milne,238,33,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+VVS Laxman,0,271,,,,right,Right-arm off spin,Right-handed
+DB Das,0,267,,,,right,,Right-handed
+AA Chavan,255,11,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+B Chipli,6,256,pace,right,,right,Right-arm medium,Right-handed
+M Kaif,0,258,,,,right,Right-arm Off spin off break,Right-handed
+KR Sen,255,3,pace,right,,right,Right arm Fast bowling fast,Right-handed
+Akash Singh,256,0,pace,left,,right,Left-arm medium-fast,Right-handed
+SH Johnson,243,12,pace,left,,left,Left-arm fast bowling fast,Left-handed
+CRD Fernando,249,3,pace,right,,right,Right arm fast bowling fast,Right-handed
+LA Pomersbach,0,251,,,,left,Right-arm off-break,Left-handed
+A Mhatre,0,250,,,,right,Right-arm Offspin off break,Right-handed
+BAW Mendis,244,6,spin,right,finger,right,Right-arm off break off spin,Right-handed
+B Akhil,193,57,pace,right,,right,Right-arm medium-fast,Right-handed
+PD Collingwood,90,159,pace,right,,right,Right-arm medium,Right-handed
+PK Garg,0,247,,,,right,Right-arm medium,Right-handed
+KC Cariappa,224,21,spin,right,wrist,right,Leg break,Right-handed
+J Theron,230,13,pace,right,,right,Right arm Fast bowling#Categorisation of fast bowling fast-medium,Right-handed
+A Manohar,0,243,,,,right,Leg break googly,Right-handed
+A Chandila,234,7,spin,right,finger,right,Right-arm offbreak,Right-handed
+AM Ghazanfar,237,3,spin,right,finger,right,Right arm off spin,Right-handed
+MP Yadav,230,6,pace,right,,right,Right-arm Pace bowling fast,Right-handed
+J Little,236,0,pace,left,,right,Left-arm fast,Right-handed
+JL Pattinson,222,13,pace,right,,left,Right-arm Fast bowling fast-medium,Left-handed
+C Bosch,171,63,pace,right,,right,Right-arm fast medium,Right-handed
+TS Mills,218,14,pace,left,,right,Left-arm Fast bowling fast,Right-handed
+M Ntini,213,19,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Shahid Afridi,185,46,spin,right,wrist,right,Right-arm leg spin,Right-handed
+Sikandar Raza,88,143,spin,right,finger,right,Right-arm off break,Right-handed
+Karanveer Singh,213,17,spin,right,wrist,right,Right-arm legbreak & googly,Right-handed
+KP Appanna,222,4,spin,left,finger,right,Left-arm orthodox,Right-handed
+S Tyagi,220,4,pace,right,,right,Right arm fast-medium,Right-handed
+J Syed Mohammad,196,27,spin,left,finger,left,Slow left arm orthodox,Left-handed
+YA Abdulla,222,1,pace,left,,left,Left arm Fast bowling#Terminology fast-medium,Left-handed
+Parvez Rasool,200,20,spin,right,finger,right,Right-arm off break,Right-handed
+Kartik Sharma,0,220,,,,right,role = Wicket keeper batter,Right-handed
+KL Nagarkoti,185,34,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+VS Malik,212,7,pace,right,,right,Right-arm medium,Right-handed
+D Ferreira,18,195,spin,right,finger,right,Right-arm Off spin off break,Right-handed
+MD Mishra,0,213,,,,right,Right arm off spin,Right-handed
+V Pratap Singh,211,1,pace,right,,right,Right-arm medium,Right-handed
+S Lamichhane,211,1,spin,right,wrist,right,Leg break,Right-handed
+SMSM Senanayake,195,17,spin,right,finger,right,Right-arm off spin off break,Right-handed
+SB Bangar,153,58,pace,right,,right,Right-arm medium,Right-handed
+Swapnil Singh,165,46,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+S Kaushik,210,1,spin,left,wrist,right,Slow left-arm wrist-spin,Right-handed
+Harsh Dubey,200,11,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Zeeshan Ansari,209,0,spin,right,wrist,right,Legbreak googly,Right-handed
+KMA Paul,180,26,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Mohammad Asif,199,6,pace,right,,left,Right armed fast bowling medium fast,Left-handed
+Aniket Verma,0,205,,,,right,Right arm Fast bowling medium-fast,Right-handed
+J Fraser-McGurk,0,203,,,,right,Right-arm leg break,Right-handed
+Ashwani Kumar,196,6,pace,left,,left,Left arm Fast bowling medium-fast,Left-handed
+AS Raut,30,172,spin,right,wrist,right,Legbreak googly,Right-handed
+PBB Rajapaksa,0,201,,,,left,Right-arm Fast bowling medium,Left-handed
+IS Sodhi,182,18,spin,right,wrist,right,Right-arm leg break,Right-handed
+AC Voges,56,143,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+MJ Lumb,0,198,,,,left,Right-arm Fast bowling medium,Left-handed
+MW Short,45,153,spin,right,finger,right,Right-arm off break,Right-handed
+N Thushara,198,0,pace,right,,right,Right arm Fast bowling medium-fast,Right handed
+MJ Guptill,0,196,,,,right,Right-arm off-break,Right-handed
+D Pretorius,166,28,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+I Udana,182,11,pace,left,,right,Left-arm medium,Right-handed
+SE Bond,191,2,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+M Siddharth,193,0,spin,left,finger,right,Slow left arm orthodox,Right-handed
+B Laughlin,179,13,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+FY Fazal,12,179,pace,right,,left,Right-arm medium,Left-handed
+SM Katich,0,191,,,,left,Slow left-arm wrist spin,Left-handed
+Atharva Taide,1,188,spin,left,finger,left,Left-arm orthodox,Left-handed
+AJ Hosein,175,14,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Yash Raj Punja,186,0,spin,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+OC McCoy,180,5,pace,left,,left,Left-arm fast-medium,Left-handed
+MS Wade,0,185,,,,left,Right-arm Pace bowling medium,Left-handed
+S Randiv,180,4,spin,right,finger,right,Right-arm offbreak,Right-handed
+YV Takawale,0,183,,,,right,"role = Batsman , Wicket-keeper",Right-handed
+CA Ingram,0,183,,,,left,Right arm leg spin,Left-handed
+P Nissanka,0,180,,,,right,role = Batting order (cricket)#Top order Top-order batter,Right-handed
+PP Hinge,168,9,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+MJ Henry,166,10,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+S Sandeep Warrier,176,0,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+Kamran Khan,170,5,pace,left,,left,Left-arm fast-medium,Left-handed
+CK Langeveldt,165,9,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+HF Gurney,169,5,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+Umar Gul,153,19,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Salman Butt,0,172,,,,left,Right-arm off spin,Left-handed
+SP Fleming,0,171,,,,left,Right-arm medium-slow,Left-handed
+FH Allen,0,168,,,,right,Right-arm off break,Right-handed
+KS Bharat,0,168,,,,right,role = Wicket-keeper-batter,Right-handed
+PA Reddy,0,167,,,,right,Right-arm leg break,Right-handed
+T Thushara,144,19,pace,left,,left,Left-arm fast bowling fast-medium,Left-handed
+K Khejroliya,163,0,pace,left,,left,Left-arm medium-fast,Left-handed
+P Parameswaran,159,3,pace,left,,right,Left-arm fast bowling fast-medium,Right-handed
+RR Raje,144,18,pace,right,,right,Right-armed fast bowling fast-medium,Right-handed
+MJ Clarke,66,96,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+Anand Rajan,162,0,pace,right,,right,Right-arm Medium,Right-handed
+Yudhvir Singh,145,16,pace,right,,right,Right-arm medium-fast,Right-handed
+BE Hendricks,157,3,pace,left,,left,Left-arm Fast bowling fast-medium,Left-handed
+DP Vijaykumar,159,1,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),bowling =
+HC Brook,0,159,,,,right,Right-arm fast bowling medium,Right-handed
+Gurjapneet Singh,159,0,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+CM Gautam,0,158,,,,right,role = Wicket-keeper,Right-handed
+LE Plunkett,154,3,pace,right,,right,Right-arm fast bowling fast medium,Right-handed
+C Munro,12,144,pace,right,,left,Right-arm Fast bowling medium fast,Left-handed
+JA Duffy,156,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+AM Salvi,156,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+N Jagadeesan,0,155,,,,right,,Right-handed
+FH Edwards,150,5,pace,right,,right,Right arm Fast bowling fast,Right-handed
+GC Viljoen,146,7,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+R Shukla,130,23,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+BJ Rohrer,7,145,pace,right,,left,Right-arm Fast bowling medium,Left-handed
+B Stanlake,150,2,pace,right,,left,Right-arm Fast bowling fast,Left-handed
+WA Mota,75,76,pace,right,,right,Right arm Fast bowling Medium,Right-handed
+S Ladda,141,10,spin,right,wrist,right,Right arm Leg spin leg break,Right-handed
+RV Gomez,97,53,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+SB Dubey,0,148,,,,left,Right-arm offbreak,Left-handed
+Mohammad Hafeez,63,84,spin,right,finger,right,Right-arm off break,Right-handed
+OF Smith,95,50,pace,right,,right,Right arm Fast bowling fast-medium,Right-handed
+KM Asif,143,2,pace,right,,right,Right-arm medium,Right-handed
+GD Phillips,31,112,spin,right,finger,right,Right arm off-break,Right-handed
+N Saini,0,143,,,,right,role = Wicket-keeper,Right-handed
+DH Yagnik,0,142,,,,left,role = Wicket-keeper,Left-handed
+S Narwal,113,29,pace,right,,left,Right-arm medium,Left-handed
+Ashok Sharma,136,5,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+P Dogra,0,141,,,,right,Legbreak,Right-handed
+Mayank Dagar,138,1,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+LJ Wright,75,63,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+MA Wood,127,10,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+MN van Wyk,0,135,,,,right,Slow left-arm orthodox,Right-handed
+MC Juneja,0,134,,,,right,Right-arm off break,Right-handed
+SS Cottrell,131,2,pace,left,,right,Left-arm fast-medium,Right-handed
+Sachin Baby,10,123,spin,right,finger,left,Right-arm off break,Left-handed
+P Amarnath,132,0,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+RJW Topley,125,6,pace,left,,right,Left-arm Fast bowling Fast-medium,Right-handed
+SD Chitnis,38,92,spin,right,finger,right,Right-arm off break,Right-handed
+RT Ponting,0,129,,,,right,Right-arm Fast bowling medium,Right-handed
+W Jaffer,0,129,,,,right,Right-arm off break,Right-handed
+A Choudhary,108,20,pace,left,,right,Left-arm medium,Right-handed
+S Vidyut,13,115,spin,left,finger,left,Left-arm orthodox spin Slow Left arm Orthodox,Left-handed
+JE Taylor,122,4,pace,right,,right,Right arm Fast bowling fast,Right-handed
+SD Hope,0,125,,,,right,Left-arm medium,Right-handed
+NK Patel,0,124,,,,left,,Left-handed
+T Shamsi,120,4,spin,left,wrist,right,Left-arm unorthodox spin,Right handed
+A Flintoff,66,57,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Suryansh Shedge,19,104,pace,right,,right,Right-arm medium,Right-handed
+MD Choudhary,0,122,,,,,,
+Jaskaran Singh,111,11,pace,right,,right,Right-arm medium,Right-handed
+JA Richardson,94,27,pace,right,,right,Right-arm fast bowling fast,Right-handed
+S Anirudha,0,121,,,,right,,Right-handed
+Ankit Soni,112,9,spin,right,wrist,right,Leg break googly,Right-handed
+Arjun Tendulkar,107,14,pace,left,,left,Left-arm fast bowling medium-fast,Left-handed
+DJ Harris,18,103,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+JG Bethell,0,120,,,,left,Slow left-arm orthodox,Left-handed
+P Sahu,107,13,spin,right,wrist,right,Leg break googly,Right-handed
+DJM Short,18,102,spin,left,wrist,left,Left-arm unorthodox spin,Left-handed
+Harpreet Singh,0,119,,,,left,Right-arm fast bowling medium,Left-handed
+AD Hales,0,119,,,,right,Right-arm Fast bowling medium,Right-handed
+CJ Ferguson,0,119,,,,right,Right-arm Fast bowling medium,Right-handed
+M de Lange,116,2,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+Shivam Sharma,114,3,spin,right,finger,right,Right-arm off break,Right-handed
+Anmolpreet Singh,0,117,,,,right,Right-arm off-break,Right-handed
+BB Samantray,0,116,,,,right,Right-hand medium,Right-handed
+Aman Hakim Khan,6,109,pace,right,,right,Right-arm medium,Right-handed
+MG Bracewell,66,49,spin,right,finger,left,Right-arm off break,Left-handed
+PHKD Mendis,42,72,spin,left,finger,left,Slow left-arm orthodox Right-arm off break }},Left-handed
+SS Prabhudessai,0,113,,,,right,Right-arm medium,Right-handed
+MD Shanaka,38,74,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+P Dubey,79,33,spin,right,wrist,right,Leg break googly,Right-handed
+SB Wagh,108,3,pace,left,,left,Left-arm fast bowling fast-medium,Left-handed
+FA Allen,91,19,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+KJ Abbott,102,8,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+KMDN Kulasekara,107,3,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+Shoaib Ahmed,103,6,pace,right,,right,Right-arm fast-medium,Right-handed
+Shoaib Malik,58,49,spin,right,finger,right,Right-arm Off spin off break,Right-handed
+P Suyal,107,0,pace,left,,right,Left-arm fast-medium,Right-handed
+RJ Quiney,0,105,,,,left,Right-arm Fast bowling medium,Left-handed
+UT Khawaja,0,105,,,,left,Right-arm off break,Left-handed
+Urvil Patel,0,102,,,,right,role = Wicket keeper batter,Right handed
+DG Nalkande,89,12,pace,right,,right,Right-arm Pace bowling fast-medium,Right-handed
+DJ Jacobs,0,101,,,,right,Right-arm medium,Right-handed
+GHS Garton,97,4,pace,left,,left,Left-arm fast medium,Left-handed
+IR Jaggi,0,100,,,,right,role = Batsman,Right-handed
+AD Nath,0,99,,,,right,Right-arm medium-fast,Right-handed
+DJ Thornely,44,54,spin,right,finger,right,Right-arm medium Right-arm off spin,Right-handed
+S Rana,16,82,pace,right,,right,Right arm fast medium,Right-handed
+PR Shah,0,97,,,,right,role =Wicketkeeper Batter,Right-handed
+RV Patel,20,76,pace,right,,right,Right arm Fast bowling medium,Right handed
+AP Dole,73,23,pace,right,,right,Right-arm medium-fast,Right-handed
+JJ van der Wath,76,17,pace,right,,right,Right-arm fast-medium,Right-handed
+AC Blizzard,0,91,,,,left,Left-arm Seam bowling medium,Left-handed
+Raghu Sharma,90,0,spin,right,wrist,right,Legbreak googly,Right-handed
+SR Dubey,87,2,pace,left,,,manual (docs/BOWLER_STYLE_TODO.md),bowling =
+AA Bilakhia,0,88,,,,right,Right-arm medium,Right-handed
+Auqib Nabi,84,4,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+M Tiwari,75,12,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+DJ Muthuswami,84,3,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+PR Veer,12,72,spin,left,finger,left,Left-arm orthodox spin,Left-handed
+Gagandeep Singh,84,0,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+Misbah-ul-Haq,0,82,,,,right,Right-arm leg break,Right-handed
+SM Harwood,67,14,pace,right,,right,Right arm Fast bowling#Categorisation of fast bowling fast-medium,Right-handed
+S Arora,0,81,,,,,,
+JR Philippe,0,80,,,,right,role = Wicket-keeper-batter,Right-handed
+RJ Peterson,48,32,spin,left,finger,left,Left arm orthodox spin Slow left arm orthodox,Left-handed
+M Klinger,0,78,,,,right,role = Batsman (cricket) Batter,Right-handed
+LA Carseldine,7,71,pace,left,,left,Left-arm medium,Left-handed
+DNT Zoysa,69,9,pace,left,,left,Left-arm fast-medium,Left-handed
+RR Sarwan,0,78,,,,right,Right arm leg spin leg break,Right-handed
+Kamran Akmal,0,78,,,,right,Right-arm medium,Right-handed
+SA Abbott,59,18,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+AP Majumdar,0,77,,,,right,Right-arm Leg spin leg break Googly,Right-handed
+AU Rashid,60,17,spin,right,wrist,right,Right-arm leg break,Right-handed
+A Chopra,0,75,,,,right,Right-arm medium Right-arm off break,Right-handed
+RJ Gleeson,73,2,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+PN Mankad,0,75,,,,right,Right-arm medium,Right-handed
+D Salunkhe,51,24,spin,right,wrist,right,Legbreak,Right-handed
+KT Maphaka,71,3,pace,left,,left,Left-arm Fast bowling Fast,Left-handed
+RE Levi,0,74,,,,right,Right-arm Fast bowling medium,Right-handed
+Himmat Singh,0,74,,,,right,Right arm off break,Right-handed
+TP Sudhindra,74,0,pace,right,,left,Right-arm fast,Left-handed
+V Puthur,73,0,spin,left,wrist,,Left-arm wrist spin,bowling = Left-arm wrist spin
+JM Kemp,47,25,pace,right,,right,Right-arm medium,Right-handed
+SB Joshi,55,16,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+M Rawat,0,70,,,,right,,Right-handed
+Vivrant Sharma,21,49,spin,right,wrist,left,Googly Leg-Break Googly,Left-handed
+ND Doshi,57,13,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+Anirudh Singh,0,69,,,,left,,Left-handed
+Yashpal Singh,0,67,,,,right,role = Middle-order batsman,Right-handed
+AUK Pathan,41,26,pace,right,,right,Right-arm medium,Right-handed
+SK Rasheed,0,67,,,,right,Right-arm leg break,Right-handed
+Vishnu Vinod,0,66,,,,right,Right-arm medium-fast,Right-handed
+V Viyaskanth,60,5,spin,right,wrist,right,Right arm leg break,Right-handed
+K Upadhyay,56,9,pace,right,,right,Right-hand medium,Right-handed
+RA Bawa,32,32,pace,right,,left,Right-arm medium-fast,Left-handed
+W O'Rourke,64,0,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+O Thomas,63,0,pace,right,,left,Right-arm fast,Left-handed
+AG Paunikar,0,61,,,,right,Right-arm Fast bowling medium,Right-handed
+KAJ Roach,52,9,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+JW Hastings,61,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Abhinandan Singh,60,0,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+TR Birt,0,59,,,,left,Right-arm medium,Left-handed
+GF Linde,37,21,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+D Kalyankrishna,50,8,pace,right,,right,Right arm medium fast,Right-handed
+K Yadav,54,4,pace,left,,left,Left-arm Fast bowling fast-medium,Left-handed
+CJ McKay,42,15,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Krish Bhagat,36,21,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+BMAJ Mendis,30,27,spin,right,wrist,left,Leg break,Left-handed
+SP Jackson,0,57,,,,right,Right arm off break,Right-handed
+D du Preez,43,13,pace,right,,right,Right arm Fast bowling#Categorisation of fast bowling fast-medium,Right-handed
+S Sriram,18,38,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Shoaib Akhtar,46,8,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+T Kohler-Cadmore,0,54,,,,right,Right-arm Off spin off break,Right-handed
+KB Arun Karthik,0,53,,,,right,Leg break googly,Right-handed
+NS Naik,0,53,,,,right,role = Wicket-keeper,Right-handed
+NL McCullum,30,23,spin,right,finger,right,Right-arm off break,Right-handed
+MJ Suthar,50,2,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+MA Khote,30,22,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+T Henderson,36,16,pace,right,,right,Right-arm Fast bowling#Terminology fast-medium,Right-handed
+JPR Scantlebury-Searles,45,6,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+C Nanda,50,1,spin,right,wrist,right,Leg break,Right-handed
+N Sindhu,0,51,,,,left,Slow left-arm orthodox,Left-handed
+K Santokie,51,0,pace,left,,,manual (docs/BOWLER_STYLE_TODO.md),
+SS Mishra,47,3,pace,left,,left,Left arm medium fast,Left-handed
+SC Kuggeleijn,50,0,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+P Ray Barman,24,25,spin,right,wrist,right,Leg break,Right-handed
+B Geeves,49,0,pace,right,,right,Right-arm fast bowling fast-medium,Right-handed
+Sumit Kumar,22,26,pace,right,,right,Right arm medium fast,Right-handed
+GS Sandhu,48,0,pace,right,,left,Right-arm Fast bowling fast-medium,Left-handed
+L Ablish,45,2,pace,right,,right,Right-arm medium,Right-handed
+A Uniyal,38,7,pace,left,,left,Left-arm fast-medium,Left-handed
+TL Seifert,0,44,,,,right,role = Wicket-keeper-batsman,Right-handed
+LB Williams,42,2,pace,right,,left,Right arm Fast bowling medium-fast,Left-handed
+B Muzarabani,44,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+AB Barath,0,43,,,,right,Right-arm off-break,Right-handed
+SM Boland,43,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+RS Hangargekar,43,0,pace,right,,right,Right-arm fast bowling fast,Right-handed
+R Ninan,36,6,spin,right,finger,right,Right-arm offbreak,Right-handed
+L Wood,38,3,pace,left,,left,Left-arm Fast bowling fast-medium,Left-handed
+CK Kapugedera,17,24,pace,right,,right,Right arm fast bowling medium,Right-handed
+GR Napier,24,16,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+AS Yadav,0,40,,,,right,Off break,Right-handed
+RG More,37,2,pace,right,,right,Right-arm medium-fast,Right-handed
+B Sumanth,0,38,,,,,,
+KA Maharaj,36,2,spin,left,finger,right,Slow left-arm orthodox,Right-handed
+L Ronchi,0,37,,,,right,"role = Wicket-keeper , batsman",Right-handed
+AA Noffke,25,12,pace,right,,right,Right-arm fast-medium,Right-handed
+SSB Magala,37,0,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+BR Dunk,0,36,,,,left,Right-arm Off spin off break,Left-handed
+DA Payne,31,5,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+PH Solanki,36,0,spin,right,wrist,right,Right-arm Legbreak,Right-handed
+VS Yeligati,32,2,spin,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+Y Prithvi Raj,33,1,pace,left,,left,Left-arm Fast Bowling medium,Left-handed
+SZ Mulani,33,1,spin,left,finger,left,Slow Left arm orthodox,Left-handed
+DAJ Bracewell,25,9,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+AA Kulkarni,0,33,,,,,,
+LPC Silva,6,27,spin,right,wrist,right,Right-arm leg-spin,Right-handed
+SU Parakh,0,33,,,,,,
+PM Sarvesh Kumar,31,2,pace,right,,right,Right arm medium,Right handed
+S Chanderpaul,0,33,,,,left,Right-arm Leg spin leg break,Left-handed
+Tanush Kotian,0,32,,,,right,Right-arm off break,Right-handed
+Sunny Singh,0,31,,,,right,Right-arm medium,Right-handed
+AJ Turner,0,31,,,,right,Right-arm off break,Right-handed
+B Indrajith,0,31,,,,right,Right-arm leg break,Right-handed
+Mashrafe Mortaza,28,2,pace,right,,right,Right arm Fast,Right-handed
+PVSN Raju,29,1,pace,right,,right,Right arm Fast bowling medium-fast,Right-handed
+A Dananjaya,25,5,spin,right,wrist,left,Right-arm off break Right-arm leg break,Left-handed
+H Sharma,30,0,spin,right,wrist,right,Right-arm leg spin leg-break,Right-handed
+S Joseph,30,0,pace,right,,left,Right-arm Fast bowling fast,Left-handed
+AT Carey,0,29,,,,left,,Left-handed
+TD Paine,0,29,,,,right,Right-arm Pace bowling medium,Right-handed
+D Madushanka,28,0,pace,left,,right,Left-arm Fast bowling fast-medium,Right-handed
+D Jansen,28,0,pace,left,,right,Left-arm Fast bowling Fast,Right-handed
+Akshat Raghuwanshi,0,27,,,,right,Right-arm off spin off break,Right-handed
+JE Root,12,15,spin,right,finger,right,Right-arm off break,Right-handed
+RK Bhui,0,27,,,,right,Leg-Break googly,Right-handed
+T Taibu,0,26,,,,right,Right-arm medium,Right-handed
+VH Zol,0,26,,,,left,Right-arm off break,Left-handed
+DR Martyn,0,26,,,,right,Right-arm Fast bowling medium,Right-handed
+DJ Malan,0,26,,,,left,Right-arm leg break,Left-handed
+Virat Singh,0,26,,,,left,Right-arm offbreak,Left-handed
+BJ Dwarshuis,26,0,pace,left,,left,Left-arm fast-medium,Left-handed
+IC Porel,26,0,pace,right,,right,Right-arm Fast bowling medium,Right-handed
+HE van der Dussen,0,25,,,,right,Right arm Leg spin leg break,Right-handed
+R Smaran,0,25,,,,,,
+KS Sharma,0,25,,,,right,Right-arm offbreak,Right-handed
+Salil Arora,0,25,,,,,,
+SS Sarkar,25,0,pace,right,,right,Right-arm Fast bowling medium-fast,Right-handed
+MG Neser,25,0,pace,right,,right,Right-arm fast bowling medium-fast,Right-handed
+NB Singh,25,0,pace,right,,right,Right-arm fast,Right-handed
+Y Gnaneswara Rao,6,18,pace,right,,right,Right arm medium,Right-handed
+J Arunkumar,0,24,,,,right,Right-arm off break,Right-handed
+R Goyal,24,0,spin,left,wrist,left,Left-arm unorthodox spin,Left-handed
+V Kaverappa,24,0,pace,right,,right,Right-arm Pace bowling fast-medium,Right-handed
+SS Agarwal,24,0,spin,right,wrist,right,Legbreak googly,Right handed
+A Mukund,0,23,,,,left,"Right-arm leg break , googly",Left-handed
+YV Dhull,0,23,,,,right,Right arm off break,Right-handed
+T Banton,0,22,,,,right,Right-arm off break,Right-handed
+Sanvir Singh,0,22,,,,right,Right arm medium,Right-handed
+Kumar Kushagra,0,21,,,,right,role = Wicket-keeper batsman,Right-handed
+C Madan,0,21,,,,right,,Right-handed
+NJ Maddinson,0,21,,,,left,Slow left-arm orthodox Slow left-arm,Left-handed
+Gulbadin Naib,6,15,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+Gurnoor Brar,21,0,pace,right,,left,Right-Arm Pace bowling fast,Left-Handed
+Tejas Baroka,21,0,spin,right,wrist,right,Leg break googly,Right-handed
+T Kohli,0,20,,,,right,Right arm Medium pace bowling medium,Right-handed
+DR Shorey,0,20,,,,right,Right-arm offbreak,Right-handed
+Sunny Gupta,19,1,spin,right,finger,right,Right-arm offbreak,Right-handed
+R Minz,0,20,,,,left,Slow left arm orthodox,Left-handed
+NJ Rimmington,18,1,pace,right,,right,Right-arm Fast bowling fast-medium,Right-handed
+DS Lehmann,0,19,,,,left,Slow left arm orthodox,Left-handed
+CJ Dala,19,0,pace,right,,right,Right–arm medium,Right-handed
+MB Parmar,19,0,spin,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+LI Meriwala,19,0,pace,left,,left,Left-arm fast bowling fast-medium,Left-handed
+PWA Mulder,6,12,pace,right,,right,Right-arm fast bowling medium,Right-handed
+Jalaj S Saxena,18,0,spin,right,finger,right,Right arm off break,Right-handed
+RS Ghosh,18,0,pace,right,,,manual (docs/BOWLER_STYLE_TODO.md),
+A Nel,18,0,pace,right,,right,Right–arm Fast bowling fast-medium,Right-handed
+RW Price,18,0,spin,left,finger,right,Left arm orthodox spin Slow left arm orthodox,Right-handed
+X Thalaivan Sargunam,0,17,,,,right,,Right-handed
+R Bishnoi,0,17,,,,right,Right-arm medium-fast,Right-handed
+Arshad Khan (2),13,4,pace,left,,left,Left-arm medium,Left-handed
+CJ Green,17,0,spin,right,finger,right,Right-arm off break,Right-handed
+Sediqullah Atal,0,16,,,,left,role = Batting order (cricket) Opening batter,Left-handed
+Abdur Razzak,14,2,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+R Sanjay Yadav,14,2,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Saurav Chauhan,0,16,,,,,,
+Monu Kumar,16,0,pace,right,,right,Right arm medium,Right-handed
+UA Birla,0,15,,,,right,Right arm medium,Right-handed
+ER Dwivedi,0,15,,,,right,,Right-handed
+T Dahiya,0,15,,,,,,
+Musheer Khan,12,3,spin,left,finger,right,Left-arm orthodox spin,Right-handed
+NA Saini,15,0,pace,right,,right,Right-arm Fast bowling fast,Right-handed
+RR Bhatkal,12,2,pace,right,,right,Right-arm medium,Right-handed
+RS Gavaskar,6,8,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Mohit Rathee,12,2,spin,right,wrist,right,Right-arm leg spin leg-break,Right-handed
+MDKJ Perera,0,13,,,,left,Right-arm Fast bowling medium,Left-handed
+F Behardien,0,13,,,,right,Right-arm Fast bowling medium,Right-handed
+SD Lad,0,13,,,,right,Right-arm off break,Right-handed
+DT Patil,0,13,,,,right,role = Wicket-keeper,Right-handed
+S Midhun,13,0,spin,right,wrist,right,Legbreak googly,Right-handed
+AA Kazi,13,0,spin,left,finger,left,Slow left-arm orthodox,Left-handed
+Mohammad Ashraful,0,12,,,,right,Right-arm off spin off break Right-arm leg break }},Right-handed
+AR Bawne,0,12,,,,right,Right-arm off break,Right-handed
+PSP Handscomb,0,12,,,,right,Right-arm off break,Right-handed
+MP Breetzke,0,12,,,,right,Right-arm Fast bowling medium,Right-handed
+T Vijay,12,0,spin,left,,,manual (docs/BOWLER_STYLE_TODO.md),
+RR Bose,12,0,pace,right,,right,Right-arm fast-medium,Right-handed
+BJ Haddin,0,11,,,,right,role = Wicket-keeper-batter,Right-handed
+TM Srivastava,0,11,,,,left,Right-arm medium,Left-handed
+BKG Mendis,0,11,,,,right,Right-arm leg spin leg break,Right-handed
+I Malhotra,6,4,pace,right,,right,Right-arm medium-fast,Right-handed
+A Tomar,0,8,,,,,role =,bowling =
+AN Ghosh,0,8,,,,right,Right-arm fast bowling medium,Right-handed
+LG Pretorius,0,8,,,,,,
+SS Shaikh,0,7,,,,right,Right-arm fast bowling medium,Right-handed
+Younis Khan,0,7,,,,right,Right-arm medium,Right-handed
+SS Mundhe,7,0,pace,right,,right,Right-arm medium-fast,Right-handed
+P Chopra,0,6,,,,right,Legbreak googly,Right-handed
+P Prasanth,6,0,spin,left,finger,left,Fast bowling Slow Left-Arm Orthodox,Left-handed
+C Ganapathy,6,0,pace,right,,right,Right-arm medium,Right-handed
+Karim Janat,6,0,pace,right,,right,Right-arm medium-fast,Right-handed
+RA Shaikh,6,0,pace,left,,,manual (docs/BOWLER_STYLE_TODO.md),
+KS Rathore,0,5,,,,,,
+H Das,0,5,,,,right,,Right-handed
+BR Sharath,0,5,,,,right,role = Wicket-keeper,Right-handed
+DM Bravo,0,5,,,,left,Right arm fast bowling medium,Left-handed
+DV Malewar,0,5,,,,,,
+MS Bhandage,0,4,,,,left,Right-arm Fast bowling medium-fast,Left-handed
+Liton Das,0,4,,,,right,Off spin Right-arm off break,Right-handed
+Shivam Singh,0,3,,,,,,
+MJ Owen,0,2,,,,right,Right-arm Fast bowling medium,Right-handed
+Ravi Singh,0,2,,,,,,
+RS Sodhi,0,2,,,,right,Right-arm medium fast,Right-handed
+JL Denly,0,1,,,,right,Right-arm leg spin,Right-handed
+U Kaul,0,1,,,,left,role = Wicket-keeper,Left-handed
+Abdul Basith,0,1,,,,right,Right-arm off spin off-break,Right-handed

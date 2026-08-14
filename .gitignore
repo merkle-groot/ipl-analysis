@@ -1,0 +1,19 @@
+# environments and editors
+.venv/
+.vscode/
+.claude/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# raw and derived data (regenerate with the scripts in this repo)
+ipl_male_json/
+ipl_by_season/
+ball_data.parquet
+people.csv
+
+# generated intermediates for the site
+site/_data/
+
+# vercel
+.vercel/
