@@ -86,7 +86,9 @@ figcaption{
 }
 
 .two{display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:start}
-.three{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; align-items:start}
+.two.dossiers{grid-template-rows:auto auto auto 1fr}
+.three{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; align-items:start;
+  grid-template-rows:auto auto auto 1fr}
 @media (max-width:840px){.two,.three{grid-template-columns:1fr}}
 
 .wrap{overflow-x:auto; -webkit-overflow-scrolling:touch}
@@ -123,11 +125,35 @@ tr.spot td{background:var(--paper-box)}
   color:var(--spot); margin:0 0 11px;
 }
 .dossier p{font-size:15.5px; margin:0 0 .7em}
-.strip{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); margin:0 0 12px}
-.strip div{background:var(--paper-tint); padding:8px 9px 7px}
-.strip .v{font-family:var(--ff-display); font-weight:700; font-size:19px; line-height:1.05}
+.strip{
+  display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:auto auto;
+  gap:1px; background:var(--rule); border:1px solid var(--rule); margin:0 0 14px;
+}
+.strip div{
+  background:var(--paper-tint); padding:9px 9px 8px;
+  display:grid; grid-template-rows:subgrid; grid-row:span 2; align-content:start;
+}
+.strip .v{
+  font-family:var(--ff-display); font-weight:700; font-size:19px; line-height:1.05;
+  white-space:nowrap;
+}
+.strip .v.dual{font-size:15.5px; letter-spacing:-.01em}
 .strip .v.sp{color:var(--spot)}
-.strip .k{font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.1em; font-size:9.5px; color:var(--ink-2); margin-top:3px; line-height:1.3}
+.strip .k{
+  font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.09em; font-size:9.5px;
+  color:var(--ink-2); margin-top:5px; line-height:1.3; align-self:start;
+}
+
+/* dossier columns share one row grid, so name, meta, stats and prose line up across them */
+.three .dossier,.two.dossiers .dossier{
+  display:grid; grid-template-rows:subgrid; grid-row:span 4; align-content:start; row-gap:0;
+}
+.d-body{align-self:start}
+@supports not (grid-template-rows:subgrid){
+  .three .dossier,.two.dossiers .dossier{display:block}
+  .strip div{display:block}
+  .strip .k{min-height:2.6em}
+}
 
 .note{
   background:var(--paper-box); border-top:2px solid var(--ink); padding:14px 16px 12px;
@@ -421,59 +447,59 @@ tr.spot td{background:var(--paper-box)}
       <h3>Virat Kohli</h3>
       <p class="role">6,907 balls &middot; 9,316 runs</p>
       <div class="strip">
-        <div><div class="v">+3.6</div><div class="k">runs above par per 100</div></div>
-        <div><div class="v sp">26%</div><div class="k">harder to dismiss than par</div></div>
-        <div><div class="v">.326</div><div class="k">dot rate against par of .382</div></div>
+        <div><div class="v">+3.6</div><div class="k">runs above par / 100</div></div>
+        <div><div class="v sp">26%</div><div class="k">harder to dismiss</div></div>
+        <div><div class="v">.326</div><div class="k">dot rate, par .382</div></div>
       </div>
-      <p>The scoring number is good rather than remarkable, and the wicket number is where his case sits, because he is dismissed a quarter less often per ball than his situations predict while facing more deliveries than anyone above him on that list.</p>
-      <p>He gets there by wasting fewer balls rather than hitting more of them, since his boundary rate is actually below par, and his four most recent seasons read 139.8, 154.7, 144.7 and 166.0, which are the best of a nineteen-year career arriving at the end of it.</p>
+      <div class="d-body"><p>The scoring number is good rather than remarkable, and the wicket number is where his case sits, because he is dismissed a quarter less often per ball than his situations predict while facing more deliveries than anyone above him on that list.</p>
+      <p>He gets there by wasting fewer balls rather than hitting more of them, since his boundary rate is actually below par, and his four most recent seasons read 139.8, 154.7, 144.7 and 166.0, which are the best of a nineteen-year career arriving at the end of it.</p></div>
     </article>
     <article class="dossier">
       <h3>Rohit Sharma</h3>
       <p class="role">5,493 balls &middot; 7,284 runs</p>
       <div class="strip">
-        <div><div class="v">+2.4</div><div class="k">runs above par per 100</div></div>
-        <div><div class="v sp">143 / 116</div><div class="k">strike rate v pace / v spin</div></div>
-        <div><div class="v">180.5</div><div class="k">strike rate in the last four overs</div></div>
+        <div><div class="v">+2.4</div><div class="k">runs above par / 100</div></div>
+        <div><div class="v sp dual">143 / 116</div><div class="k">strike rate, pace / spin</div></div>
+        <div><div class="v">180.5</div><div class="k">strike rate at the death</div></div>
       </div>
-      <p>Slightly above par overall, and all of it earned at the death, where he strikes at 180.5 against a par of 152.9 while his powerplay rate of 126.2 sits below par for an opener.</p>
-      <p>The split that would change a team plan is the other one: he is nearly ten runs per hundred above par against pace and nearly nine below it against spin, an eighteen-run swing that puts him among the most pace-dependent batters in the league.</p>
+      <div class="d-body"><p>Slightly above par overall, and all of it earned at the death, where he strikes at 180.5 against a par of 152.9 while his powerplay rate of 126.2 sits below par for an opener.</p>
+      <p>The split that would change a team plan is the other one: he is nearly ten runs per hundred above par against pace and nearly nine below it against spin, an eighteen-run swing that puts him among the most pace-dependent batters in the league.</p></div>
     </article>
     <article class="dossier">
       <h3>MS Dhoni</h3>
       <p class="role">3,935 balls &middot; 5,409 runs</p>
       <div class="strip">
-        <div><div class="v sp">41%</div><div class="k">harder to dismiss than par</div></div>
-        <div><div class="v">154 / 110</div><div class="k">strike rate v pace / v spin</div></div>
-        <div><div class="v">&minus;1.5</div><div class="k">runs above par per 100</div></div>
+        <div><div class="v sp">41%</div><div class="k">harder to dismiss</div></div>
+        <div><div class="v dual">154 / 110</div><div class="k">strike rate, pace / spin</div></div>
+        <div><div class="v">&minus;1.5</div><div class="k">runs above par / 100</div></div>
       </div>
-      <p>The most double-edged record in the dataset, because he is the hardest man here to get out with any real volume behind him, and once you adjust for the fact that he almost never batted before the seventh over he is a fractionally below-par scorer.</p>
-      <p>His middle-overs strike rate of 100.5 against a par of 121.5 gets lost inside the finisher reputation, and the spin problem is the second largest in the competition, since he survives it comfortably at a dismissal every 37.9 balls and simply cannot score off it.</p>
+      <div class="d-body"><p>The most double-edged record in the dataset, because he is the hardest man here to get out with any real volume behind him, and once you adjust for the fact that he almost never batted before the seventh over he is a fractionally below-par scorer.</p>
+      <p>His middle-overs strike rate of 100.5 against a par of 121.5 gets lost inside the finisher reputation, and the spin problem is the second largest in the competition, since he survives it comfortably at a dismissal every 37.9 balls and simply cannot score off it.</p></div>
     </article>
   </div>
   <figure style="margin-top:30px">{{bowlphase}}<figcaption>Runs conceded per over by phase, against the league par for that phase and era. The red figure is runs saved.</figcaption></figure>
-  <div class="two">
+  <div class="two dossiers">
     <article class="dossier">
       <h3>Jasprit Bumrah</h3>
       <p class="role">3,631 balls &middot; 187 wickets &middot; pace</p>
       <div class="strip">
-        <div><div class="v sp">28.4</div><div class="k">runs saved per 100 balls</div></div>
-        <div><div class="v">7.00</div><div class="k">economy against par of 8.70</div></div>
-        <div><div class="v">.146</div><div class="k">boundary rate against par of .205</div></div>
+        <div><div class="v sp">28.4</div><div class="k">runs saved / 100 balls</div></div>
+        <div><div class="v">7.00</div><div class="k">economy, par 8.70</div></div>
+        <div><div class="v">.146</div><div class="k">boundary rate, par .205</div></div>
       </div>
-      <p>No batter in this newspaper beats their par by as much as Bumrah beats his, and the record is built on preventing runs rather than taking wickets, since his strike rate sits a shade below par for the overs he bowls.</p>
-      <p>He is under par in all three phases, bowls a dot with 52.1 per cent of his powerplay deliveries, and concedes 7.86 an over at the death where the league concedes 9.78, which is nearly two full runs an over better than the phase he specialises in.</p>
+      <div class="d-body"><p>No batter in this newspaper beats their par by as much as Bumrah beats his, and the record is built on preventing runs rather than taking wickets, since his strike rate sits a shade below par for the overs he bowls.</p>
+      <p>He is under par in all three phases, bowls a dot with 52.1 per cent of his powerplay deliveries, and concedes 7.86 an over at the death where the league concedes 9.78, which is nearly two full runs an over better than the phase he specialises in.</p></div>
     </article>
     <article class="dossier">
       <h3>Ravichandran Ashwin</h3>
       <p class="role">4,710 balls &middot; 183 wickets &middot; off spin</p>
       <div class="strip">
-        <div><div class="v sp">9.3</div><div class="k">runs saved per 100 balls</div></div>
-        <div><div class="v">6.95</div><div class="k">economy against par of 7.50</div></div>
-        <div><div class="v">.118</div><div class="k">boundary rate against par of .145</div></div>
+        <div><div class="v sp">9.3</div><div class="k">runs saved / 100 balls</div></div>
+        <div><div class="v">6.95</div><div class="k">economy, par 7.50</div></div>
+        <div><div class="v">.118</div><div class="k">boundary rate, par .145</div></div>
       </div>
-      <p>A containment record almost entirely, achieved by not being hit to the fence: his boundary rate is the second lowest of any bowler here with three thousand deliveries or more, behind only Sunil Narine.</p>
-      <p>He takes wickets at about eight per cent below par, which is what happens when a bowler works a phase where wickets are cheap and declines to chase them, and he owns the most lopsided rivalry in the dataset, having dismissed Kohli once in 149 deliveries.</p>
+      <div class="d-body"><p>A containment record almost entirely, achieved by not being hit to the fence: his boundary rate is the second lowest of any bowler here with three thousand deliveries or more, behind only Sunil Narine.</p>
+      <p>He takes wickets at about eight per cent below par, which is what happens when a bowler works a phase where wickets are cheap and declines to chase them, and he owns the most lopsided rivalry in the dataset, having dismissed Kohli once in 149 deliveries.</p></div>
     </article>
   </div>
 </section>

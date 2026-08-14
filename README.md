@@ -3,7 +3,7 @@
 Ball-level models and a statistical broadsheet built from nineteen seasons of Indian
 Premier League cricket: 1,243 matches, 295,557 deliveries, of which 284,465 are legal.
 
-**Site:** [ipl-analysis.vercel.app](https://ipl-analysis.vercel.app) · **Author:** [@0x1379](https://x.com/0x1379)
+**Site:** [ipl.primemodulus.com](https://ipl.primemodulus.com/) · **Author:** [@0x1379](https://x.com/0x1379)
 
 Two models are fitted on the same data. One predicts whether a delivery takes a wicket,
 the other predicts the full distribution of runs off the bat. Both are trained on 2008–2023,
