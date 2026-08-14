@@ -336,52 +336,71 @@ tr.spot td{background:var(--paper-box)}
 }
 /* ---------- phones ---------- */
 @media (max-width:760px){
-  body{font-size:17.5px; line-height:1.55}
+  body{font-size:17px; line-height:1.55}
+  .sheet{padding:0 18px}
 
-  /* charts are drawn in a 700-unit viewBox; squeezing that into a 375px screen renders
-     10-unit labels at about 5px. Hold them at their design size and scroll instead. */
-  figure{overflow-x:auto; -webkit-overflow-scrolling:touch}
-  figure svg{min-width:660px}
-  figure::after{
-    content:"scroll sideways to see the whole chart";
-    display:block; margin-top:6px;
-    font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.12em;
-    font-size:10.5px; color:var(--muted);
+  /* the section rail is 18 links; as a sideways-scrolling strip above the headline it
+     costs more than it gives on a phone, and the tab bar still covers navigation */
+  .secnav{display:none}
+
+  /* charts are drawn in a 700-unit viewBox. Fitting one to 390px would need the type
+     roughly doubled, which collides; so they keep their size and pan instead. Running
+     them to the screen edge makes that read as a panel rather than a broken layout. */
+  figure{
+    margin:22px -18px 8px; padding:0 18px;
+    overflow-x:auto; -webkit-overflow-scrolling:touch; overscroll-behavior-x:contain;
   }
-  figcaption{font-size:13.5px; line-height:1.55}
+  figure svg{min-width:640px}
+  figure::-webkit-scrollbar{height:3px}
+  figure::-webkit-scrollbar-thumb{background:var(--rule)}
+  figcaption{margin-left:0; margin-right:0; font-size:13px; line-height:1.55}
+  /* said once, on the first chart, not under all seventeen */
+  .findings-body figure:first-of-type figcaption::after{
+    content:" \2194 Charts pan sideways.";
+    color:var(--muted);
+  }
 
-  /* every small utility label goes up a step */
-  .mh-top{font-size:11.5px; letter-spacing:.16em}
-  .stats{font-size:12.5px}
-  .stats > div{padding:14px 0 14px 14px}
-  .tabs{gap:20px}
-  .tabs label{font-size:12px; padding:14px 0 12px}
-  .secnav a{font-size:12px; padding:12px 13px 11px}
-  .eyebrow{font-size:12px; letter-spacing:.18em}
-  .story .after{font-size:16.5px}
-  .dossier .role{font-size:11.5px}
-  .strip .k{font-size:11px; letter-spacing:.07em}
-  .strip .v{font-size:21px}
-  .strip .v.dual{font-size:17px}
-  .dossier p{font-size:16.5px}
-  .note{font-size:16.5px}
-  .colophon{font-size:13px; line-height:1.7}
-  caption{font-size:12px}
-  th{font-size:12px}
-  table{font-size:15.5px}
-  td.name small{font-size:11px}
-  .nb{font-size:16.5px}
-  .nb-md p,.nb-md li{font-size:16.5px}
-  .nb-code{font-size:13.5px}
-  .nb-out{font-size:13px}
-  .nb-table table{font-size:13.5px}
+  /* utility type up one step, no more */
+  .mh-top{font-size:11px; letter-spacing:.14em}
+  .stats{font-size:11.5px}
+  .stats > div{padding:15px 0 15px 14px}
+  .tabs{gap:22px}
+  .tabs label{font-size:11.5px; padding:13px 0 11px}
+  .eyebrow{font-size:11.5px; letter-spacing:.18em}
+  .story{padding-top:28px}
+  .story h2{max-width:none}
+  .story .after,.dossier p,.note{font-size:16px}
+  .dossier .role{font-size:11px}
+  .strip .v{font-size:20px}
+  .strip .v.dual{font-size:16.5px}
+  .strip .k{font-size:10.5px; letter-spacing:.07em}
+  table{font-size:15px}
+  caption,th{font-size:11.5px}
+  td.name small{font-size:10.5px}
+  .colophon{font-size:12.5px; line-height:1.7; padding-bottom:88px}
+  .nb{font-size:16px}
+  .nb-code{font-size:13px}
+  .nb-out{font-size:12.5px}
+  .nb-table table{font-size:13px}
+  .nb-fig{margin-left:-18px; margin-right:-18px}
 
-  /* keep the floating links clear of the last line of text */
-  .colophon{padding-bottom:96px}
+  /* one row of links, out of the way of the last paragraph */
+  .social{top:auto; bottom:0; right:0; left:0; transform:none;
+    flex-direction:row; justify-content:center; gap:0;
+    background:var(--paper); border-top:1px solid var(--rule);
+  }
+  .social a{
+    flex:1 1 auto; justify-content:center; max-width:none; border:none;
+    padding:13px 10px; font-size:11px;
+  }
+  .social a span{opacity:1}
+  .social a + a{border-left:1px solid var(--rule)}
 }
-@media (max-width:420px){
-  .stats{grid-template-columns:1fr 1fr}
+@media (max-width:430px){
+  .stats{grid-template-columns:1fr 1fr; font-size:11px}
   .stats > div:nth-child(3){padding-left:0; border-left:none}
+  .tabs{gap:16px}
+  .tabs label{font-size:11px}
 }
 :focus-visible{outline:2px solid var(--spot); outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
