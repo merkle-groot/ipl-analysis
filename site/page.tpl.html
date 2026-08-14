@@ -406,6 +406,44 @@ tr.spot td{background:var(--paper-box)}
   .tabs{gap:18px}
   .tabs label{font-size:11px}
 }
+/* ---------- the five careers: one at a time on a phone ---------- */
+.pin{position:absolute; width:1px; height:1px; opacity:0; margin:0}
+.ptabs{display:none}
+@media (max-width:760px){
+  .ptabs{
+    display:flex; gap:0; margin:0 -18px 22px; padding:0 18px;
+    overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch;
+    border-bottom:1px solid var(--rule);
+  }
+  .ptabs label{
+    flex:0 0 auto; cursor:pointer; user-select:none;
+    font-family:var(--ff-util); text-transform:uppercase; letter-spacing:.12em; font-size:11.5px;
+    color:var(--muted); padding:11px 14px 10px;
+    border-bottom:2px solid transparent; margin-bottom:-1px;
+  }
+  .ptabs label:first-child{padding-left:0}
+  #pl-kohli:checked ~ .ptabs label[for="pl-kohli"],
+  #pl-rohit:checked ~ .ptabs label[for="pl-rohit"],
+  #pl-dhoni:checked ~ .ptabs label[for="pl-dhoni"],
+  #pl-bumrah:checked ~ .ptabs label[for="pl-bumrah"],
+  #pl-ashwin:checked ~ .ptabs label[for="pl-ashwin"]{
+    color:var(--ink); border-bottom-color:var(--spot);
+  }
+  .fivepack .dossier,.fivepack figure{display:none}
+  .fivepack .dossier{border-top:none; padding-top:0}
+  .fivepack .three,.fivepack .two{gap:0}
+  #pl-kohli:checked ~ .three .dossier:nth-of-type(1),
+  #pl-rohit:checked ~ .three .dossier:nth-of-type(2),
+  #pl-dhoni:checked ~ .three .dossier:nth-of-type(3),
+  #pl-bumrah:checked ~ .two .dossier:nth-of-type(1),
+  #pl-ashwin:checked ~ .two .dossier:nth-of-type(2){display:block}
+  #pl-kohli:checked ~ .fig-bat,
+  #pl-rohit:checked ~ .fig-bat,
+  #pl-dhoni:checked ~ .fig-bat,
+  #pl-bumrah:checked ~ .fig-bowl,
+  #pl-ashwin:checked ~ .fig-bowl{display:block; margin-top:0}
+  .fivepack .fig-bat figcaption,.fivepack .fig-bowl figcaption{margin-bottom:22px}
+}
 :focus-visible{outline:2px solid var(--spot); outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
@@ -513,7 +551,20 @@ tr.spot td{background:var(--paper-box)}
 <section class="story" id="famous-five">
   <p class="eyebrow">The big names</p>
   <h2>The five best-known careers in the competition, adjusted for the overs they were given</h2>
-  <figure>{{phase}}<figcaption>Strike rate by phase against the league par for that same phase and era. All three sit at or below par until the last four overs.</figcaption></figure>
+  <div class="fivepack">
+  <input class="pin" type="radio" name="whichplayer" id="pl-kohli" checked>
+  <input class="pin" type="radio" name="whichplayer" id="pl-rohit">
+  <input class="pin" type="radio" name="whichplayer" id="pl-dhoni">
+  <input class="pin" type="radio" name="whichplayer" id="pl-bumrah">
+  <input class="pin" type="radio" name="whichplayer" id="pl-ashwin">
+  <nav class="ptabs" aria-label="Choose a player">
+    <label for="pl-kohli">Kohli</label>
+    <label for="pl-rohit">Rohit</label>
+    <label for="pl-dhoni">Dhoni</label>
+    <label for="pl-bumrah">Bumrah</label>
+    <label for="pl-ashwin">Ashwin</label>
+  </nav>
+  <figure class="fig-bat">{{phase}}<figcaption>Strike rate by phase against the league par for that same phase and era. All three sit at or below par until the last four overs.</figcaption></figure>
   <div class="three">
     <article class="dossier">
       <h3>Virat Kohli</h3>
@@ -549,7 +600,7 @@ tr.spot td{background:var(--paper-box)}
       <p>His middle-overs strike rate of 100.5 against a par of 121.5 gets lost inside the finisher reputation, and the spin problem is the second largest in the competition, since he survives it comfortably at a dismissal every 37.9 balls and simply cannot score off it.</p></div>
     </article>
   </div>
-  <figure style="margin-top:30px">{{bowlphase}}<figcaption>Runs conceded per over by phase, against the league par for that phase and era. The red figure is runs saved.</figcaption></figure>
+  <figure class="fig-bowl" style="margin-top:30px">{{bowlphase}}<figcaption>Runs conceded per over by phase, against the league par for that phase and era. The red figure is runs saved.</figcaption></figure>
   <div class="two dossiers">
     <article class="dossier">
       <h3>Jasprit Bumrah</h3>
@@ -573,6 +624,7 @@ tr.spot td{background:var(--paper-box)}
       <div class="d-body"><p>A containment record almost entirely, achieved by not being hit to the fence: his boundary rate is the second lowest of any bowler here with three thousand deliveries or more, behind only Sunil Narine.</p>
       <p>He takes wickets at about eight per cent below par, which is what happens when a bowler works a phase where wickets are cheap and declines to chase them, and he owns the most lopsided rivalry in the dataset, having dismissed Kohli once in 149 deliveries.</p></div>
     </article>
+  </div>
   </div>
 </section>
 
