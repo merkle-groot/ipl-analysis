@@ -398,16 +398,14 @@ tr.spot td{background:var(--paper-box)}
 /* ---------- wide screens: the section rail becomes a vertical column ---------- */
 @media (min-width:1140px){
   :root{--measure:82rem}
-  #view-findings:checked ~ .panel-findings{
-    display:flex; align-items:flex-start; gap:var(--toc-gap);
-  }
+  .with-rail{display:flex; align-items:flex-start; gap:var(--toc-gap)}
   .findings-body{flex:1 1 auto; min-width:0}
   .secnav{
     flex:0 0 var(--toc-w);
     position:sticky; top:22px; z-index:6;
     display:block; white-space:normal; overflow-x:visible;
     max-height:calc(100vh - 44px); overflow-y:auto;
-    margin-top:max(0px, calc(50vh - 17rem)); margin-bottom:0;
+    margin-top:58px; margin-bottom:0;
     margin-left:0; margin-right:0; padding:0 0 0 1px;
     background:transparent; border-bottom:none; border-left:1px solid var(--rule);
   }
@@ -423,6 +421,10 @@ tr.spot td{background:var(--paper-box)}
 .rail-head:first-child{padding-top:0}
   .story{scroll-margin-top:22px}
   .opener{scroll-margin-top:22px}
+  /* the headline spans the sheet, so its rule would cross the empty rail;
+     section boundaries live in the text column instead */
+  .opener{border-bottom:none; padding-bottom:34px}
+  .findings-body .story:first-of-type{border-top:1px solid var(--rule)}
 }
 /* ---------- phones ---------- */
 @media (max-width:760px){
@@ -586,6 +588,12 @@ tr.spot td{background:var(--paper-box)}
 
 <div class="panel panel-findings">
 
+<section class="opener">
+  <h1>The IPL in 284,465 deliveries</h1>
+  <p>I went through every legal delivery bowled in this competition since 2008, first to work out which players were genuinely better than the situations they were handed, and then to test the things everybody repeats about how a T20 innings actually works.</p>
+</section>
+
+<div class="with-rail">
 <nav class="secnav" aria-label="Jump to a section">
   <p class="rail-head">The players</p>
   <a href="#pace-spin">Pace v spin</a>
@@ -610,11 +618,6 @@ tr.spot td{background:var(--paper-box)}
 </nav>
 
 <div class="findings-body">
-
-<section class="opener">
-  <h1>The IPL in 284,465 deliveries</h1>
-  <p>I went through every legal delivery bowled in this competition since 2008, first to work out which players were genuinely better than the situations they were handed, and then to test the things everybody repeats about how a T20 innings actually works.</p>
-</section>
 
 <section class="story" id="pace-spin">
   <p class="eyebrow">The players</p>
@@ -1935,6 +1938,8 @@ tr.spot td{background:var(--paper-box)}
   <h4>Colophon</h4>
   <p>Ball-by-ball records for 1,243 matches across seasons 2008 to 2026, covering 295,557 deliveries of which 284,465 were legal. Bowling actions and batting stances were reconstructed separately for all 577 bowlers, since the source data records neither. Every group compared above holds at least a few thousand deliveries unless stated otherwise, and the individual head-to-head figures are printed because they are interesting rather than because they are evidence, since even the longest rivalry here is only 149 balls.</p>
   <p>The par comparisons and the counter-intuitive findings are descriptions of what happened, not causal claims. Where this page says that something adds nothing, that comes from prediction models fitted on the 2008 to 2023 seasons and scored on the two most recent ones, and those seasons were looked at more than once while the work was going on, so the smaller differences should be treated as worth checking again rather than settled.</p>
+</div>
+
 </div>
 
 </div>
